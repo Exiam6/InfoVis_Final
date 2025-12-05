@@ -1,0 +1,5527 @@
+{
+  "https://openalex.org/countries/CN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/US": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GB": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/JP": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/DE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/FR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ES": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CH": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/HK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/RU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MX": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/FI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/RO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/DK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TH": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ZA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/EG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/HU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ID": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/UA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/RS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/DZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/HR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/VN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/JO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IQ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LV": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/VE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/EE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LB": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/QA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PH": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TJ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/OM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NP": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GH": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/UY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/EC": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/UG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ET": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/YE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/VG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/UZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ME": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ZW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BH": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/JM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BF": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GP": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KH": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/RE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/FJ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BJ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/XK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/RW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ML": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ZM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/DO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/HN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PF": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BB": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/DJ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/FO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MC": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SV": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AF": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/IM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NC": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SC": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ST": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TG": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/VI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/BZ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CV": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GY": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/HT": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/JE": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MQ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MV": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/PW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GF": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/ER": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KP": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/CF": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/DM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MP": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/NU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/WS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TD": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GQ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KN": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SJ": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SR": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TL": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TO": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/VA": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/VU": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AX": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/FM": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/GI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/MS": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/SX": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/AW": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/KI": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/TC": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/LC": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  },
+  "https://openalex.org/countries/FK": {
+    "nodes": [
+      {
+        "id": "Computer Vision",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Natural Language Processing",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Robotics",
+        "type": "main",
+        "count": 0
+      },
+      {
+        "id": "Theory",
+        "type": "main",
+        "count": 0
+      }
+    ],
+    "links": []
+  }
+}
