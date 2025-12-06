@@ -6,14 +6,14 @@ import * as topojson from 'topojson-client';
 
 // Color scales
 const PAPER_COUNT_COLORS = ['#0a0e1a', '#0c4a6e', '#0891b2', '#22d3ee', '#a5f3fc'];
-const GROWTH_COLORS = ['#be123c', '#881337', '#1e1b4b', '#0e7490', '#22d3ee'];
+const GROWTH_COLORS = ['#be123c', '#881337', '#0a0e1a', '#0e7490', '#22d3ee'];
 
-// ISO 3166-1 numeric to alpha-2 mapping
+// ISO 3166-1 numeric to alpha-2 mapping (comprehensive)
 const NUMERIC_TO_ALPHA2 = {
-  "004": "AF", "008": "AL", "012": "DZ", "020": "AD", "024": "AO", "028": "AG", "032": "AR",
-  "036": "AU", "040": "AT", "044": "BS", "048": "BH", "050": "BD", "051": "AM", "056": "BE",
-  "064": "BT", "068": "BO", "070": "BA", "072": "BW", "076": "BR", "084": "BZ", "090": "SB",
-  "096": "BN", "100": "BG", "104": "MM", "108": "BI", "112": "BY", "116": "KH", "120": "CM",
+  "4": "AF", "8": "AL", "12": "DZ", "20": "AD", "24": "AO", "28": "AG", "32": "AR",
+  "36": "AU", "40": "AT", "44": "BS", "48": "BH", "50": "BD", "51": "AM", "56": "BE",
+  "64": "BT", "68": "BO", "70": "BA", "72": "BW", "76": "BR", "84": "BZ", "90": "SB",
+  "96": "BN", "100": "BG", "104": "MM", "108": "BI", "112": "BY", "116": "KH", "120": "CM",
   "124": "CA", "140": "CF", "144": "LK", "148": "TD", "152": "CL", "156": "CN", "158": "TW",
   "170": "CO", "178": "CG", "180": "CD", "188": "CR", "191": "HR", "192": "CU", "196": "CY",
   "203": "CZ", "204": "BJ", "208": "DK", "214": "DO", "218": "EC", "222": "SV", "226": "GQ",
@@ -55,57 +55,100 @@ export default function MapView({
   const tooltipRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 500 });
 
-  // Process data for the selected year
-  const yearData = useMemo(() => {
-    if (!data.length) return new Map();
-    
-    let filtered = data.filter((d) => d.year === selectedYear);
-    
-    // If subfield is selected, use subfield data instead
-    if (selectedSubfield && subfieldData.length) {
-      filtered = subfieldData.filter(
-        (d) => d.year === selectedYear && d.subfield === selectedSubfield
-      );
-    }
-    
-    return new Map(filtered.map((d) => [d.country_code, d.papers]));
-  }, [data, subfieldData, selectedYear, selectedSubfield]);
+  // Build country names and summary lookup from our data
+  const { countryNames, summaryMap } = useMemo(() => {
+    const names = new Map();
+    const sMap = new Map();
+    summary.forEach(s => {
+      names.set(s.country_code, s.country);
+      sMap.set(s.country_code, s);
+    });
+    return { countryNames: names, summaryMap: sMap };
+  }, [summary]);
 
-  // Create color scale
-  const colorScale = useMemo(() => {
-    if (viewMode === 'growth') {
-      // Use growth ratio from summary
-      const growthValues = summary
-        .filter((d) => d.growth_ratio && isFinite(d.growth_ratio))
-        .map((d) => d.growth_ratio);
-      
-      const extent = d3.extent(growthValues);
-      return d3.scaleSequential(d3.interpolateRgbBasis(GROWTH_COLORS))
-        .domain([extent[0], extent[1]]);
-    } else {
-      // Use paper counts
-      const values = Array.from(yearData.values()).filter((v) => v > 0);
-      const maxVal = d3.max(values) || 1;
-      
-      return d3.scaleSequentialLog(d3.interpolateRgbBasis(PAPER_COUNT_COLORS))
-        .domain([1, maxVal]);
-    }
-  }, [yearData, summary, viewMode]);
-
-  // Get value for a country
-  const getValue = (countryCode) => {
-    if (viewMode === 'growth') {
-      const country = summary.find((d) => d.country_code === countryCode);
-      return country?.growth_ratio || null;
-    }
-    return yearData.get(countryCode) || null;
+  // Get alpha-2 code from TopoJSON numeric ID
+  const getCountryCode = (feature) => {
+    const numId = String(feature.id);
+    return NUMERIC_TO_ALPHA2[numId] || null;
   };
 
-  // Get color for a country
-  const getColor = (countryCode) => {
-    const value = getValue(countryCode);
-    if (value === null || value === 0) return '#0a0e1a';
-    return colorScale(value);
+  // Get display name for a feature
+  const getDisplayName = (feature) => {
+    const code = getCountryCode(feature);
+    if (code && countryNames.has(code)) {
+      return countryNames.get(code);
+    }
+    if (feature.properties?.name) {
+      return feature.properties.name;
+    }
+    return code || 'Unknown';
+  };
+
+  // Get papers for selected year
+  const yearData = useMemo(() => {
+    const map = new Map();
+    const source = (selectedSubfield && subfieldData.length) 
+      ? subfieldData.filter(d => d.subfield === selectedSubfield)
+      : data;
+    
+    source.filter(d => d.year === selectedYear)
+      .forEach(d => map.set(d.country_code, d.papers));
+    
+    return map;
+  }, [data, subfieldData, selectedYear, selectedSubfield]);
+
+  // Calculate YoY growth rates
+  const growthData = useMemo(() => {
+    const map = new Map();
+    const prevYear = selectedYear - 1;
+    
+    const current = new Map();
+    const prev = new Map();
+    
+    data.filter(d => d.year === selectedYear)
+      .forEach(d => current.set(d.country_code, d.papers));
+    data.filter(d => d.year === prevYear)
+      .forEach(d => prev.set(d.country_code, d.papers));
+    
+    current.forEach((papers, code) => {
+      const prevPapers = prev.get(code);
+      if (prevPapers && prevPapers > 0) {
+        const growth = ((papers - prevPapers) / prevPapers) * 100;
+        map.set(code, growth);
+      }
+    });
+    
+    return map;
+  }, [data, selectedYear]);
+
+  // Color scale based on viewMode
+  const colorScale = useMemo(() => {
+    if (viewMode === 'growth') {
+      const values = Array.from(growthData.values());
+      if (values.length === 0) return () => '#0a0e1a';
+      return d3.scaleSequential(d3.interpolateRdYlGn)
+        .domain([-30, 60]);
+    } else {
+      const values = Array.from(yearData.values()).filter(v => v > 0);
+      if (values.length === 0) return () => '#0a0e1a';
+      return d3.scaleSequentialLog(d3.interpolateRgbBasis(PAPER_COUNT_COLORS))
+        .domain([1, d3.max(values)]);
+    }
+  }, [yearData, growthData, viewMode]);
+
+  // Get color for a country code
+  const getColor = (code) => {
+    if (!code) return '#0a0e1a';
+    
+    if (viewMode === 'growth') {
+      const growth = growthData.get(code);
+      if (growth === undefined) return '#0a0e1a';
+      return colorScale(growth);
+    } else {
+      const papers = yearData.get(code);
+      if (!papers || papers <= 0) return '#0a0e1a';
+      return colorScale(papers);
+    }
   };
 
   // Resize observer
@@ -122,143 +165,111 @@ export default function MapView({
     return () => observer.disconnect();
   }, []);
 
-  // Draw map
+  // Main drawing effect
   useEffect(() => {
     if (!svgRef.current || !geoData) return;
 
     const svg = d3.select(svgRef.current);
     const { width, height } = dimensions;
 
-    // Clear previous content
     svg.selectAll('*').remove();
-
-    // Create projection
-    const projection = d3.geoNaturalEarth1()
-      .fitSize([width - 20, height - 20], { type: 'Sphere' })
-      .translate([width / 2, height / 2]);
-
-    const pathGenerator = d3.geoPath().projection(projection);
 
     // Convert TopoJSON to GeoJSON
     const countries = topojson.feature(geoData, geoData.objects.countries);
 
-    // Country code mapping (TopoJSON uses numeric IDs)
-    const getCountryCode = (feature) => {
-      // Try ISO_A2 property first
-      if (feature.properties?.ISO_A2 && feature.properties.ISO_A2 !== '-99') {
-        return feature.properties.ISO_A2;
-      }
-      // Fall back to numeric ID mapping
-      const numericId = feature.id || feature.properties?.id;
-      if (numericId && NUMERIC_TO_ALPHA2[numericId]) {
-        return NUMERIC_TO_ALPHA2[numericId];
-      }
-      return null;
-    };
+    // Projection
+    const projection = d3.geoNaturalEarth1()
+      .fitSize([width - 20, height - 50], countries);
 
-    // Draw graticule
+    const path = d3.geoPath().projection(projection);
+
+    // Background
+    svg.append('rect')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('fill', '#0a0e1a');
+
+    // Graticule
     const graticule = d3.geoGraticule();
     svg.append('path')
       .datum(graticule())
-      .attr('d', pathGenerator)
+      .attr('d', path)
       .attr('fill', 'none')
       .attr('stroke', '#1e2a45')
-      .attr('stroke-width', 0.3)
-      .attr('stroke-opacity', 0.5);
-
-    // Draw sphere outline
-    svg.append('path')
-      .datum({ type: 'Sphere' })
-      .attr('d', pathGenerator)
-      .attr('fill', 'none')
-      .attr('stroke', '#1e2a45')
-      .attr('stroke-width', 1);
+      .attr('stroke-width', 0.3);
 
     // Draw countries
-    const countryPaths = svg.selectAll('.country-path')
+    const countryPaths = svg.selectAll('.country')
       .data(countries.features)
       .join('path')
-      .attr('class', (d) => {
-        const code = getCountryCode(d);
-        let classes = 'country-path';
-        if (code === selectedCountry) classes += ' selected';
-        if (comparedCountries.includes(code)) classes += ' compared';
-        return classes;
-      })
-      .attr('d', pathGenerator)
-      .attr('fill', (d) => {
-        const code = getCountryCode(d);
-        return getColor(code);
-      })
-      .attr('stroke', (d) => {
+      .attr('class', 'country')
+      .attr('d', path)
+      .attr('fill', d => getColor(getCountryCode(d)))
+      .attr('stroke', d => {
         const code = getCountryCode(d);
         if (code === selectedCountry) return '#f472b6';
         if (comparedCountries.includes(code)) return '#22d3ee';
         return '#1e2a45';
       })
-      .attr('stroke-width', (d) => {
+      .attr('stroke-width', d => {
         const code = getCountryCode(d);
         if (code === selectedCountry) return 2;
         if (comparedCountries.includes(code)) return 1.5;
         return 0.5;
-      });
+      })
+      .style('cursor', 'pointer');
 
     // Tooltip
     const tooltip = d3.select(tooltipRef.current);
 
     countryPaths
-      .on('mouseenter', function (event, d) {
+      .on('mouseenter', function(event, d) {
         const code = getCountryCode(d);
-        const countryName = d.properties?.name || d.properties?.NAME || 'Unknown';
-        const value = getValue(code);
-        const summaryData = summary.find((s) => s.country_code === code);
+        const name = getDisplayName(d);
+        const papers = yearData.get(code);
+        const growth = growthData.get(code);
+        const info = summaryMap.get(code);
 
         onCountryHover(code);
-
-        d3.select(this)
-          .raise()
+        
+        d3.select(this).raise()
           .attr('stroke', '#22d3ee')
-          .attr('stroke-width', 1.5);
+          .attr('stroke-width', 2);
 
-        tooltip
-          .style('opacity', 1)
-          .style('left', `${event.offsetX + 15}px`)
-          .style('top', `${event.offsetY + 15}px`)
-          .html(`
-            <div class="country-name">${countryName}</div>
-            <div class="stat-row">
-              <span class="stat-label">Papers (${selectedYear})</span>
-              <span class="stat-value">${yearData.get(code)?.toLocaleString() || 'N/A'}</span>
-            </div>
-            ${summaryData ? `
-              <div class="stat-row">
-                <span class="stat-label">Total (2010-2025)</span>
-                <span class="stat-value">${Math.round(summaryData.total_papers).toLocaleString()}</span>
-              </div>
-              <div class="stat-row">
-                <span class="stat-label">Growth Ratio</span>
-                <span class="stat-value">${summaryData.growth_ratio?.toFixed(2) || 'N/A'}×</span>
-              </div>
-            ` : ''}
-          `);
+        let html = `<div class="country-name">${name}</div>`;
+        html += `<div class="stat-row"><span class="stat-label">Papers (${selectedYear})</span>`;
+        html += `<span class="stat-value">${papers?.toLocaleString() || 'N/A'}</span></div>`;
+        
+        if (growth !== undefined) {
+          const color = growth >= 0 ? '#4ade80' : '#f87171';
+          html += `<div class="stat-row"><span class="stat-label">YoY Growth</span>`;
+          html += `<span class="stat-value" style="color:${color}">${growth >= 0 ? '+' : ''}${growth.toFixed(1)}%</span></div>`;
+        }
+        
+        if (info) {
+          html += `<div class="stat-row"><span class="stat-label">Total Papers</span>`;
+          html += `<span class="stat-value">${info.total_papers?.toLocaleString()}</span></div>`;
+        }
+
+        tooltip.style('opacity', 1)
+          .style('left', (event.offsetX + 15) + 'px')
+          .style('top', (event.offsetY + 15) + 'px')
+          .html(html);
       })
-      .on('mousemove', (event) => {
-        tooltip
-          .style('left', `${event.offsetX + 15}px`)
-          .style('top', `${event.offsetY + 15}px`);
+      .on('mousemove', event => {
+        tooltip.style('left', (event.offsetX + 15) + 'px')
+          .style('top', (event.offsetY + 15) + 'px');
       })
-      .on('mouseleave', function (event, d) {
+      .on('mouseleave', function(event, d) {
         const code = getCountryCode(d);
         onCountryHover(null);
-
-        const isSelected = code === selectedCountry;
-        const isCompared = comparedCountries.includes(code);
-
-        d3.select(this)
-          .attr('stroke', isSelected ? '#f472b6' : isCompared ? '#22d3ee' : '#1e2a45')
-          .attr('stroke-width', isSelected ? 2 : isCompared ? 1.5 : 0.5);
-
         tooltip.style('opacity', 0);
+        
+        d3.select(this)
+          .attr('stroke', code === selectedCountry ? '#f472b6' : 
+                         comparedCountries.includes(code) ? '#22d3ee' : '#1e2a45')
+          .attr('stroke-width', code === selectedCountry ? 2 : 
+                               comparedCountries.includes(code) ? 1.5 : 0.5);
       })
       .on('click', (event, d) => {
         const code = getCountryCode(d);
@@ -266,67 +277,71 @@ export default function MapView({
       });
 
     // Legend
-    const legendWidth = 200;
-    const legendHeight = 10;
-    const legendX = width - legendWidth - 20;
+    const legendW = 180;
+    const legendH = 12;
+    const legendX = width - legendW - 20;
     const legendY = height - 40;
 
-    // Legend gradient
     const defs = svg.append('defs');
+    const gradientId = `legend-gradient-${viewMode}`;
     const gradient = defs.append('linearGradient')
-      .attr('id', 'legend-gradient');
+      .attr('id', gradientId)
+      .attr('x1', '0%').attr('x2', '100%');
 
-    const colors = viewMode === 'growth' ? GROWTH_COLORS : PAPER_COUNT_COLORS;
-    colors.forEach((color, i) => {
-      gradient.append('stop')
-        .attr('offset', `${(i / (colors.length - 1)) * 100}%`)
-        .attr('stop-color', color);
-    });
+    if (viewMode === 'growth') {
+      gradient.append('stop').attr('offset', '0%').attr('stop-color', d3.interpolateRdYlGn(0));
+      gradient.append('stop').attr('offset', '50%').attr('stop-color', d3.interpolateRdYlGn(0.5));
+      gradient.append('stop').attr('offset', '100%').attr('stop-color', d3.interpolateRdYlGn(1));
+    } else {
+      PAPER_COUNT_COLORS.forEach((color, i) => {
+        gradient.append('stop')
+          .attr('offset', `${(i / (PAPER_COUNT_COLORS.length - 1)) * 100}%`)
+          .attr('stop-color', color);
+      });
+    }
 
     svg.append('rect')
       .attr('x', legendX)
       .attr('y', legendY)
-      .attr('width', legendWidth)
-      .attr('height', legendHeight)
-      .attr('fill', 'url(#legend-gradient)')
+      .attr('width', legendW)
+      .attr('height', legendH)
+      .attr('fill', `url(#${gradientId})`)
       .attr('rx', 2);
 
     // Legend labels
-    const domain = colorScale.domain();
     svg.append('text')
       .attr('x', legendX)
-      .attr('y', legendY - 6)
-      .attr('class', 'axis-label')
-      .text(viewMode === 'growth' ? `${domain[0]?.toFixed(1)}×` : '1');
+      .attr('y', legendY - 5)
+      .attr('fill', '#94a3b8')
+      .attr('font-size', 10)
+      .attr('font-family', 'JetBrains Mono, monospace')
+      .text(viewMode === 'growth' ? '-30%' : '0');
 
     svg.append('text')
-      .attr('x', legendX + legendWidth)
-      .attr('y', legendY - 6)
-      .attr('class', 'axis-label')
+      .attr('x', legendX + legendW)
+      .attr('y', legendY - 5)
+      .attr('fill', '#94a3b8')
+      .attr('font-size', 10)
+      .attr('font-family', 'JetBrains Mono, monospace')
       .attr('text-anchor', 'end')
-      .text(viewMode === 'growth' 
-        ? `${domain[1]?.toFixed(1)}×` 
-        : `${Math.round(domain[1]).toLocaleString()}`);
+      .text(viewMode === 'growth' ? '+60%' : d3.max(Array.from(yearData.values()))?.toLocaleString() || '');
 
     svg.append('text')
-      .attr('x', legendX + legendWidth / 2)
-      .attr('y', legendY + legendHeight + 14)
-      .attr('class', 'axis-label')
+      .attr('x', legendX + legendW / 2)
+      .attr('y', legendY + legendH + 12)
+      .attr('fill', '#64748b')
+      .attr('font-size', 9)
+      .attr('font-family', 'Space Grotesk, sans-serif')
       .attr('text-anchor', 'middle')
-      .text(viewMode === 'growth' ? 'Growth Ratio (2010→2025)' : 'Paper Count');
+      .text(viewMode === 'growth' ? 'Year-over-Year Growth' : 'Paper Count (log scale)');
 
-  }, [geoData, dimensions, yearData, summary, selectedYear, selectedCountry, 
-      comparedCountries, viewMode, colorScale, onCountrySelect, onCountryHover]);
+  }, [geoData, dimensions, yearData, growthData, viewMode, selectedCountry, comparedCountries, 
+      colorScale, countryNames, summaryMap, selectedYear, onCountrySelect, onCountryHover]);
 
   return (
-    <div className="map-container w-full h-full relative">
-      <svg
-        ref={svgRef}
-        width={dimensions.width}
-        height={dimensions.height}
-        className="w-full h-full"
-      />
-      <div ref={tooltipRef} className="map-tooltip" style={{ opacity: 0 }} />
+    <div className="w-full h-full relative">
+      <svg ref={svgRef} width={dimensions.width} height={dimensions.height} className="w-full h-full" />
+      <div ref={tooltipRef} className="map-tooltip" />
     </div>
   );
 }

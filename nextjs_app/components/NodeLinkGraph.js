@@ -3,12 +3,13 @@
 import { useRef, useEffect, useMemo, useState } from 'react';
 import * as d3 from 'd3';
 
-// Colors for main fields
+// Colors for main fields - includes all possible field names
 const FIELD_COLORS = {
   'Computer Vision': '#22d3ee',
   'Natural Language Processing': '#f472b6',
   'Robotics': '#4ade80',
   'Theory': '#fbbf24',
+  'Reinforcement Learning': '#fbbf24',  // Same color as Theory
 };
 
 export default function NodeLinkGraph({
@@ -19,239 +20,221 @@ export default function NodeLinkGraph({
 }) {
   const svgRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 500, height: 230 });
-  const [expandedField, setExpandedField] = useState(null);
+  const [expandedFields, setExpandedFields] = useState([]);
 
-  // Get graph data for selected country
   const graphData = useMemo(() => {
-    if (!selectedCountry || !nodeLinkData[selectedCountry]) {
-      // Return default structure if no country selected
-      return {
-        nodes: [
-          { id: 'Computer Vision', type: 'main', count: 0 },
-          { id: 'Natural Language Processing', type: 'main', count: 0 },
-          { id: 'Robotics', type: 'main', count: 0 },
-          { id: 'Theory', type: 'main', count: 0 },
-        ],
-        links: [],
-      };
+    if (!selectedCountry || !nodeLinkData || !nodeLinkData[selectedCountry]) {
+      return { nodes: [], links: [] };
     }
     return nodeLinkData[selectedCountry];
   }, [nodeLinkData, selectedCountry]);
 
-  // Filter nodes based on expanded state
-  const filteredData = useMemo(() => {
-    if (!expandedField) {
-      // Show only main nodes
-      return {
-        nodes: graphData.nodes.filter((n) => n.type === 'main'),
-        links: [],
-      };
-    }
-
-    // Show main nodes + subfields of expanded field
-    const mainNodes = graphData.nodes.filter((n) => n.type === 'main');
-    const subNodes = graphData.nodes.filter(
-      (n) => n.type === 'sub' && n.parent === expandedField
-    );
-    const links = graphData.links.filter((l) => l.source === expandedField);
-
-    return {
-      nodes: [...mainNodes, ...subNodes],
-      links,
-    };
-  }, [graphData, expandedField]);
+  // Reset when country changes
+  useEffect(() => {
+    setExpandedFields([]);
+  }, [selectedCountry]);
 
   // Resize observer
   useEffect(() => {
     const container = svgRef.current?.parentElement;
     if (!container) return;
-
     const observer = new ResizeObserver((entries) => {
       const { width, height } = entries[0].contentRect;
       setDimensions({ width, height });
     });
-
     observer.observe(container);
     return () => observer.disconnect();
   }, []);
 
-  // Draw graph
+  // Main draw effect - KEY: we handle click inside, but create a new function reference each time expandedFields changes
   useEffect(() => {
-    if (!svgRef.current) return;
+    if (!svgRef.current || !graphData.nodes.length) return;
 
     const svg = d3.select(svgRef.current);
     const { width, height } = dimensions;
 
     svg.selectAll('*').remove();
 
+    // Get all main nodes from data
+    const mainNodes = graphData.nodes.filter(n => n.type === 'main');
+    
+    // Get sub nodes based on current expanded state
+    const subNodes = graphData.nodes.filter(n => 
+      n.type === 'sub' && expandedFields.includes(n.parent)
+    );
+    
+    const visibleNodes = [...mainNodes, ...subNodes].map(n => ({ ...n }));
+    
+    // Filter links to only show those connecting to visible sub nodes
+    const visibleLinks = graphData.links
+      .filter(l => expandedFields.includes(l.source))
+      .map(l => ({ ...l }));
+
     const g = svg.append('g');
 
-    // Size scale for nodes based on count
-    const maxCount = d3.max(filteredData.nodes, (d) => d.count) || 1;
-    const sizeScale = d3.scaleSqrt()
-      .domain([0, maxCount])
-      .range([15, 45]);
+    // Size scale
+    const maxCount = d3.max(visibleNodes, d => d.count) || 1;
+    const sizeScale = d3.scaleSqrt().domain([0, maxCount]).range([20, 50]);
 
-    // Position main nodes in a row
-    const mainNodes = filteredData.nodes.filter((n) => n.type === 'main');
-    const subNodes = filteredData.nodes.filter((n) => n.type === 'sub');
-
-    const mainSpacing = width / (mainNodes.length + 1);
-    mainNodes.forEach((node, i) => {
-      node.x = mainSpacing * (i + 1);
-      node.y = height / 3;
-      node.fx = node.x;
-      node.fy = node.y;
-    });
-
-    // Position sub nodes below their parent
-    if (expandedField) {
-      const parentNode = mainNodes.find((n) => n.id === expandedField);
-      if (parentNode && subNodes.length > 0) {
-        const subSpacing = Math.min(80, (width - 40) / (subNodes.length + 1));
-        const startX = parentNode.x - (subNodes.length - 1) * subSpacing / 2;
-        
-        subNodes.forEach((node, i) => {
-          node.x = startX + i * subSpacing;
-          node.y = height * 0.75;
-        });
-      }
-    }
+    // Force simulation
+    const simulation = d3.forceSimulation(visibleNodes)
+      .force('link', d3.forceLink(visibleLinks).id(d => d.id).distance(60).strength(0.7))
+      .force('charge', d3.forceManyBody().strength(-150))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(d => sizeScale(d.count) + 5));
 
     // Draw links
-    const links = g.selectAll('.link-line')
-      .data(filteredData.links)
+    const link = g.selectAll('.link')
+      .data(visibleLinks)
       .join('path')
-      .attr('class', 'link-line')
-      .attr('d', (d) => {
-        const source = filteredData.nodes.find((n) => n.id === d.source);
-        const target = filteredData.nodes.find((n) => n.id === d.target);
-        if (!source || !target) return '';
-        
-        // Curved path
-        const midY = (source.y + target.y) / 2;
-        return `M${source.x},${source.y} Q${source.x},${midY} ${target.x},${target.y}`;
+      .attr('class', 'link')
+      .attr('stroke', d => {
+        const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+        return FIELD_COLORS[sourceId] || '#1e2a45';
       })
-      .attr('stroke', (d) => FIELD_COLORS[d.source] || '#1e2a45')
       .attr('stroke-width', 1.5)
-      .attr('stroke-opacity', 0.4);
+      .attr('stroke-opacity', 0.4)
+      .attr('fill', 'none');
 
     // Draw nodes
-    const nodeGroups = g.selectAll('.node-group')
-      .data(filteredData.nodes)
+    const node = g.selectAll('.node')
+      .data(visibleNodes)
       .join('g')
-      .attr('class', (d) => `node-group node-${d.type}`)
-      .attr('transform', (d) => `translate(${d.x},${d.y})`)
-      .style('cursor', 'pointer');
+      .attr('class', 'node')
+      .style('cursor', 'pointer')
+      .call(d3.drag()
+        .on('start', (event, d) => {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x; d.fy = d.y;
+        })
+        .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+        .on('end', (event, d) => {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null; d.fy = null;
+        }));
 
-    // Main node circles
-    nodeGroups.filter((d) => d.type === 'main')
-      .append('circle')
-      .attr('r', (d) => sizeScale(d.count))
-      .attr('fill', (d) => FIELD_COLORS[d.id] || '#64748b')
-      .attr('fill-opacity', (d) => d.id === expandedField ? 0.9 : 0.6)
-      .attr('stroke', (d) => d.id === expandedField ? '#fff' : FIELD_COLORS[d.id])
-      .attr('stroke-width', (d) => d.id === expandedField ? 2 : 1)
-      .on('click', (event, d) => {
+    // Main circles with click handler
+    node.filter(d => d.type === 'main').each(function(d) {
+      const circle = d3.select(this).append('circle')
+        .attr('r', sizeScale(d.count))
+        .attr('fill', FIELD_COLORS[d.id] || '#64748b')
+        .attr('fill-opacity', expandedFields.includes(d.id) ? 1 : 0.7)
+        .attr('stroke', expandedFields.includes(d.id) ? '#fff' : (FIELD_COLORS[d.id] || '#64748b'))
+        .attr('stroke-width', expandedFields.includes(d.id) ? 3 : 1.5);
+      
+      // Use a closure to capture the current d.id
+      const fieldId = d.id;
+      circle.on('click', (event) => {
         event.stopPropagation();
-        setExpandedField(expandedField === d.id ? null : d.id);
+        setExpandedFields(prev => {
+          if (prev.includes(fieldId)) {
+            return prev.filter(f => f !== fieldId);
+          } else {
+            return [...prev, fieldId];
+          }
+        });
       });
+    });
 
-    // Sub node circles
-    nodeGroups.filter((d) => d.type === 'sub')
+    // Sub circles
+    node.filter(d => d.type === 'sub')
       .append('circle')
-      .attr('r', (d) => Math.max(8, sizeScale(d.count) * 0.6))
-      .attr('fill', (d) => {
-        const parentColor = FIELD_COLORS[d.parent];
-        return d3.color(parentColor)?.brighter(0.5).toString() || '#64748b';
+      .attr('r', d => Math.max(8, sizeScale(d.count) * 0.4))
+      .attr('fill', d => {
+        const color = FIELD_COLORS[d.parent];
+        return color ? d3.color(color).brighter(0.6).toString() : '#64748b';
       })
-      .attr('fill-opacity', (d) => d.id === selectedSubfield ? 0.9 : 0.5)
-      .attr('stroke', (d) => d.id === selectedSubfield ? '#fff' : 'none')
+      .attr('fill-opacity', d => d.id === selectedSubfield ? 1 : 0.7)
+      .attr('stroke', d => d.id === selectedSubfield ? '#fff' : 'none')
       .attr('stroke-width', 2)
       .on('click', (event, d) => {
         event.stopPropagation();
         onSubfieldSelect(d.id);
       });
 
-    // Labels for main nodes
-    nodeGroups.filter((d) => d.type === 'main')
+    // Main labels
+    node.filter(d => d.type === 'main')
       .append('text')
-      .attr('class', 'node-label')
-      .attr('y', (d) => sizeScale(d.count) + 14)
-      .text((d) => {
-        const name = d.id.replace('Natural Language Processing', 'NLP');
-        return name;
-      })
-      .attr('font-size', 11)
-      .attr('font-weight', 500);
+      .attr('dy', d => sizeScale(d.count) + 12)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#e2e8f0')
+      .attr('font-size', 9)
+      .attr('font-weight', 500)
+      .attr('pointer-events', 'none')
+      .text(d => {
+        if (d.id === 'Natural Language Processing') return 'NLP';
+        if (d.id === 'Reinforcement Learning') return 'RL';
+        return d.id;
+      });
 
-    // Labels for sub nodes
-    nodeGroups.filter((d) => d.type === 'sub')
+    // Sub labels
+    node.filter(d => d.type === 'sub')
       .append('text')
-      .attr('class', 'node-label')
-      .attr('y', (d) => Math.max(8, sizeScale(d.count) * 0.6) + 12)
-      .text((d) => {
-        const name = d.id;
-        return name.length > 15 ? name.slice(0, 14) + '…' : name;
-      })
-      .attr('font-size', 9);
+      .attr('dy', d => Math.max(8, sizeScale(d.count) * 0.4) + 10)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#94a3b8')
+      .attr('font-size', 7)
+      .attr('pointer-events', 'none')
+      .text(d => d.id.length > 12 ? d.id.slice(0, 11) + '…' : d.id);
 
-    // Count labels inside main nodes
-    nodeGroups.filter((d) => d.type === 'main' && d.count > 0)
+    // Count inside main nodes
+    node.filter(d => d.type === 'main' && d.count > 0)
       .append('text')
-      .attr('y', 4)
+      .attr('dy', 3)
       .attr('text-anchor', 'middle')
       .attr('fill', '#0a0e1a')
-      .attr('font-family', 'JetBrains Mono, monospace')
-      .attr('font-size', 10)
+      .attr('font-size', 8)
       .attr('font-weight', 600)
-      .text((d) => {
-        if (d.count >= 1000000) return `${(d.count / 1000000).toFixed(1)}M`;
-        if (d.count >= 1000) return `${(d.count / 1000).toFixed(0)}K`;
+      .attr('pointer-events', 'none')
+      .text(d => {
+        if (d.count >= 1000000) return `${(d.count/1000000).toFixed(1)}M`;
+        if (d.count >= 1000) return `${Math.round(d.count/1000)}K`;
         return d.count;
       });
 
-    // Tooltip
-    nodeGroups
-      .append('title')
-      .text((d) => `${d.id}: ${d.count?.toLocaleString() || 0} papers`);
+    // Tick
+    simulation.on('tick', () => {
+      visibleNodes.forEach(d => {
+        const r = d.type === 'main' ? sizeScale(d.count) : Math.max(8, sizeScale(d.count) * 0.4);
+        d.x = Math.max(r + 5, Math.min(width - r - 5, d.x));
+        d.y = Math.max(r + 5, Math.min(height - r - 20, d.y));
+      });
+      
+      link.attr('d', d => {
+        const sx = d.source.x, sy = d.source.y;
+        const tx = d.target.x, ty = d.target.y;
+        const dx = tx - sx, dy = ty - sy;
+        const dr = Math.sqrt(dx*dx + dy*dy);
+        return `M${sx},${sy}Q${(sx+tx)/2},${(sy+ty)/2 - dr*0.2} ${tx},${ty}`;
+      });
+      
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
 
-  }, [filteredData, dimensions, expandedField, selectedSubfield, onSubfieldSelect]);
+    return () => simulation.stop();
+  }, [graphData, dimensions, expandedFields, selectedSubfield, onSubfieldSelect]);
 
-  // Empty/placeholder state
   if (!selectedCountry) {
     return (
       <div className="w-full h-full flex flex-col items-center justify-center text-viz-muted text-sm">
-        <svg className="w-16 h-16 mb-3 opacity-30" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <svg className="w-14 h-14 mb-2 opacity-30" viewBox="0 0 24 24" fill="none" stroke="currentColor">
           <circle cx="12" cy="12" r="3" />
           <circle cx="6" cy="6" r="2" />
           <circle cx="18" cy="6" r="2" />
           <circle cx="6" cy="18" r="2" />
           <circle cx="18" cy="18" r="2" />
-          <line x1="12" y1="9" x2="7" y2="7" />
-          <line x1="12" y1="9" x2="17" y2="7" />
-          <line x1="12" y1="15" x2="7" y2="17" />
-          <line x1="12" y1="15" x2="17" y2="17" />
         </svg>
-        <p>Select a country to explore research fields</p>
+        <p>Select a country to explore</p>
       </div>
     );
   }
 
   return (
     <div className="w-full h-full relative">
-      <svg
-        ref={svgRef}
-        width={dimensions.width}
-        height={dimensions.height}
-        className="w-full h-full"
-        onClick={() => setExpandedField(null)}
-      />
-      {expandedField && (
-        <div className="absolute top-2 right-2 text-xs text-viz-muted font-mono">
-          Click field to collapse
-        </div>
-      )}
+      <svg ref={svgRef} width={dimensions.width} height={dimensions.height} className="w-full h-full" />
+      <div className="absolute top-1 right-2 text-[10px] text-viz-muted font-mono">
+        Click to expand · Drag to move
+      </div>
     </div>
   );
 }

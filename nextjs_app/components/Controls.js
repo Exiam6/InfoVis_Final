@@ -2,7 +2,15 @@
 
 import { useMemo } from 'react';
 
-const YEARS = Array.from({ length: 16 }, (_, i) => 2010 + i);
+// Same colors as TimeSeriesPanel for consistency
+const COUNTRY_COLORS = [
+  '#22d3ee', // cyan
+  '#f472b6', // pink
+  '#4ade80', // green
+  '#fbbf24', // yellow
+  '#a78bfa', // purple
+  '#fb7185', // rose
+];
 
 export default function Controls({
   selectedYear,
@@ -15,11 +23,15 @@ export default function Controls({
   onRemoveComparison,
   onClearComparisons,
 }) {
-  // Get country names for compared countries
+  // Get country names for compared countries with matching colors
   const comparedCountryNames = useMemo(() => {
-    return comparedCountries.map((code) => {
+    return comparedCountries.map((code, index) => {
       const country = countrySummary.find((c) => c.country_code === code);
-      return { code, name: country?.country || code };
+      return { 
+        code, 
+        name: country?.country || code,
+        color: COUNTRY_COLORS[index % COUNTRY_COLORS.length]
+      };
     });
   }, [comparedCountries, countrySummary]);
 
@@ -65,17 +77,22 @@ export default function Controls({
           </button>
         </div>
 
-        {/* Compared Countries Tags */}
+        {/* Compared Countries Tags with Colors */}
         {comparedCountryNames.length > 0 && (
           <div className="flex items-center gap-2 flex-wrap">
             <span className="text-xs font-mono text-viz-muted uppercase tracking-wider">
               Comparing:
             </span>
-            {comparedCountryNames.map(({ code, name }) => (
+            {comparedCountryNames.map(({ code, name, color }) => (
               <span
                 key={code}
-                className="inline-flex items-center gap-1 px-2 py-1 bg-viz-border rounded text-xs font-mono"
+                className="inline-flex items-center gap-1.5 px-2 py-1 bg-viz-border rounded text-xs font-mono"
+                style={{ borderLeft: `3px solid ${color}` }}
               >
+                <span 
+                  className="w-2 h-2 rounded-full" 
+                  style={{ backgroundColor: color }}
+                />
                 {name}
                 <button
                   onClick={() => onRemoveComparison(code)}

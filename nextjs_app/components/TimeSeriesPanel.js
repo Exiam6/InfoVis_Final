@@ -3,7 +3,7 @@
 import { useRef, useEffect, useMemo, useState } from 'react';
 import * as d3 from 'd3';
 
-// Color palette for compared countries
+// Color palette for compared countries - MUST match Controls.js
 const COUNTRY_COLORS = [
   '#22d3ee', // cyan
   '#f472b6', // pink
@@ -26,7 +26,7 @@ export default function TimeSeriesPanel({
   const svgRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 500, height: 220 });
 
-  // Process time series data
+  // Process time series data - only show compared countries
   const timeSeriesData = useMemo(() => {
     if (!data.length) return [];
 
@@ -34,19 +34,12 @@ export default function TimeSeriesPanel({
       ? subfieldData.filter((d) => d.subfield === selectedSubfield)
       : data;
 
-    // Get top countries if none selected
-    let countries = comparedCountries.length > 0
-      ? comparedCountries
-      : [...new Set(sourceData.map((d) => d.country_code))]
-          .map((code) => ({
-            code,
-            total: d3.sum(sourceData.filter((d) => d.country_code === code), (d) => d.papers),
-          }))
-          .sort((a, b) => b.total - a.total)
-          .slice(0, 5)
-          .map((d) => d.code);
+    // Only show compared countries (no default top 5)
+    if (comparedCountries.length === 0) {
+      return [];
+    }
 
-    return countries.map((code, i) => {
+    return comparedCountries.map((code, i) => {
       const countryData = sourceData
         .filter((d) => d.country_code === code)
         .sort((a, b) => a.year - b.year);
@@ -84,10 +77,8 @@ export default function TimeSeriesPanel({
     const svg = d3.select(svgRef.current);
     const { width, height } = dimensions;
 
-    // Clear
     svg.selectAll('*').remove();
 
-    // Margins
     const margin = { top: 20, right: 100, bottom: 35, left: 55 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -173,8 +164,9 @@ export default function TimeSeriesPanel({
         .attr('class', `time-series-line ${isHighlighted ? 'highlighted' : ''}`)
         .attr('d', line)
         .attr('stroke', series.color)
-        .attr('stroke-opacity', isHighlighted ? 1 : 0.7)
-        .attr('stroke-width', isHighlighted ? 3 : 2);
+        .attr('stroke-opacity', isHighlighted ? 1 : 0.8)
+        .attr('stroke-width', isHighlighted ? 3 : 2)
+        .attr('fill', 'none');
 
       // Dots
       g.selectAll(`.dot-${i}`)
@@ -209,15 +201,16 @@ export default function TimeSeriesPanel({
         .attr('height', 12)
         .attr('rx', 2)
         .attr('fill', series.color)
-        .attr('opacity', isHighlighted ? 1 : 0.7);
+        .attr('opacity', isHighlighted ? 1 : 0.8);
 
       legendItem.append('text')
         .attr('x', 16)
         .attr('y', 10)
-        .attr('fill', isHighlighted ? '#e2e8f0' : '#64748b')
+        .attr('fill', isHighlighted ? '#e2e8f0' : '#94a3b8')
         .attr('font-size', 11)
+        .attr('font-weight', isHighlighted ? 600 : 400)
         .attr('font-family', 'Space Grotesk, sans-serif')
-        .text(series.name.length > 12 ? series.name.slice(0, 12) + '…' : series.name);
+        .text(series.name.length > 10 ? series.name.slice(0, 10) + '…' : series.name);
     });
 
     // Year range indicator
@@ -278,11 +271,15 @@ export default function TimeSeriesPanel({
 
   }, [timeSeriesData, dimensions, selectedCountry, yearRange, onCountrySelect]);
 
-  // Empty state
+  // Empty state - show prompt to select countries
   if (!timeSeriesData.length) {
     return (
-      <div className="w-full h-full flex items-center justify-center text-viz-muted text-sm">
-        Click countries on the map to compare trends
+      <div className="w-full h-full flex flex-col items-center justify-center text-viz-muted text-sm">
+        <svg className="w-12 h-12 mb-3 opacity-30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+          <path d="M3 3v18h18" />
+          <path d="M7 16l4-4 4 4 5-6" />
+        </svg>
+        <p>Click countries on the map to compare trends</p>
       </div>
     );
   }

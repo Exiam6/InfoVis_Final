@@ -59,6 +59,10 @@ ai-research-viz/
 
 ## Quick Start
 
+### visit online:
+
+- visit https://airesearchcount.vercel.app
+
 ### Prerequisites
 
 - Node.js 18.17.0 or higher
@@ -205,7 +209,7 @@ SUBFIELDS = {
 ## Team
 
 - **Zifan Zhao** (zz4330) — Data pipeline, cross-view linking, integration
-- **Firestone Lappland** (xy2456) — View implementation, UI, styling
+- **Firestone Lappland** (xy2456) — View implementation, UI, styling，deploy on vercel
 
 NYU Data Visualization Course • Fall 2024
 

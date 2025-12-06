@@ -1,0 +1,3174 @@
+year,country_code,papers,country
+2010,CN,117651,China
+2010,US,79275,United States
+2010,GB,21991,United Kingdom
+2010,JP,18117,Japan
+2010,DE,17707,Germany
+2010,FR,15748,France
+2010,CA,13393,Canada
+2010,IT,10255,Italy
+2010,ES,9297,Spain
+2010,AU,9149,Australia
+2010,IN,8844,India
+2010,KR,8242,"Korea, Republic of"
+2010,TW,7798,"Taiwan, Province of China"
+2010,NL,6671,Netherlands
+2010,IR,5375,"Iran, Islamic Republic of"
+2010,BR,4627,Brazil
+2010,CH,4128,Switzerland
+2010,BE,3807,Belgium
+2010,HK,3790,Hong Kong
+2010,PL,3592,Poland
+2010,SE,3549,Sweden
+2010,TR,3193,Türkiye
+2010,SG,3125,Singapore
+2010,RU,2994,Russian Federation
+2010,MY,2828,Malaysia
+2010,GR,2538,Greece
+2010,IL,2502,Israel
+2010,AT,2350,Austria
+2010,MX,2327,Mexico
+2010,PT,2266,Portugal
+2010,FI,2134,Finland
+2010,RO,2129,Romania
+2010,DK,1992,Denmark
+2010,CZ,1855,Czechia
+2010,NO,1779,Norway
+2010,IE,1553,Ireland
+2010,NZ,1514,New Zealand
+2010,TH,1241,Thailand
+2010,ZA,1218,South Africa
+2010,EG,1163,Egypt
+2010,HU,1069,Hungary
+2010,AR,805,Argentina
+2010,PK,805,Pakistan
+2010,ID,785,Indonesia
+2010,CO,784,Colombia
+2010,SA,782,Saudi Arabia
+2010,SI,735,Slovenia
+2010,CL,696,Chile
+2010,UA,690,Ukraine
+2010,RS,605,Serbia
+2010,TN,576,Tunisia
+2010,DZ,570,Algeria
+2010,SK,552,Slovakia
+2010,BG,477,Bulgaria
+2010,HR,471,Croatia
+2010,VN,425,Viet Nam
+2010,BD,384,Bangladesh
+2010,AE,374,United Arab Emirates
+2010,CY,337,Cyprus
+2010,JO,335,Jordan
+2010,IQ,317,Iraq
+2010,LT,313,Lithuania
+2010,MA,284,Morocco
+2010,NG,273,Nigeria
+2010,LV,251,Latvia
+2010,VE,222,"Venezuela, Bolivarian Republic of"
+2010,EE,212,Estonia
+2010,LU,199,Luxembourg
+2010,LB,196,Lebanon
+2010,MO,195,Macao
+2010,CU,194,Cuba
+2010,QA,190,Qatar
+2010,IS,177,Iceland
+2010,PH,164,Philippines
+2010,KW,163,Kuwait
+2010,MK,135,North Macedonia
+2010,LK,131,Sri Lanka
+2010,BY,125,Belarus
+2010,TJ,124,Tajikistan
+2010,PR,118,Puerto Rico
+2010,OM,102,Oman
+2010,NP,98,Nepal
+2010,GH,96,Ghana
+2010,PE,94,Peru
+2010,UY,92,Uruguay
+2010,BA,78,Bosnia and Herzegovina
+2010,KE,76,Kenya
+2010,MN,67,Mongolia
+2010,EC,64,Ecuador
+2010,AZ,61,Azerbaijan
+2010,MT,57,Malta
+2010,UG,57,Uganda
+2010,CR,55,Costa Rica
+2010,ET,52,Ethiopia
+2010,YE,52,Yemen
+2010,PS,51,"Palestine, State of"
+2010,VG,51,"Virgin Islands, British"
+2010,CM,50,Cameroon
+2010,SD,50,Sudan
+2010,UZ,46,Uzbekistan
+2010,ME,45,Montenegro
+2010,MM,45,Myanmar
+2010,BI,42,Burundi
+2010,KZ,42,Kazakhstan
+2010,LY,42,Libya
+2010,ZW,42,Zimbabwe
+2010,TT,40,Trinidad and Tobago
+2010,AM,39,Armenia
+2010,BO,39,"Bolivia, Plurinational State of"
+2010,GE,39,Georgia
+2010,SY,38,Syrian Arab Republic
+2010,BH,37,Bahrain
+2010,TZ,37,"Tanzania, United Republic of"
+2010,BW,35,Botswana
+2010,JM,32,Jamaica
+2010,MD,32,"Moldova, Republic of"
+2010,MZ,31,Mozambique
+2010,AL,30,Albania
+2010,BF,30,Burkina Faso
+2010,KH,29,Cambodia
+2010,GP,28,Guadeloupe
+2010,SS,28,South Sudan
+2010,MU,21,Mauritius
+2010,BN,20,Brunei Darussalam
+2010,PA,20,Panama
+2010,RE,18,Réunion
+2010,FJ,17,Fiji
+2010,NE,16,Niger
+2010,BJ,15,Benin
+2010,NI,14,Nicaragua
+2010,CI,11,Côte d'Ivoire
+2010,GT,9,Guatemala
+2010,GU,9,Guam
+2010,LI,9,Liechtenstein
+2010,XK,9,XK
+2010,CD,8,"Congo, The Democratic Republic of the"
+2010,MW,8,Malawi
+2010,PY,8,Paraguay
+2010,RW,8,Rwanda
+2010,ML,7,Mali
+2010,NA,7,Namibia
+2010,SN,7,Senegal
+2010,ZM,7,Zambia
+2010,DO,6,Dominican Republic
+2010,HN,6,Honduras
+2010,PF,6,French Polynesia
+2010,KG,5,Kyrgyzstan
+2010,BB,4,Barbados
+2010,BS,4,Bahamas
+2010,LA,4,Lao People's Democratic Republic
+2010,AG,3,Antigua and Barbuda
+2010,CG,3,Congo
+2010,DJ,3,Djibouti
+2010,FO,3,Faroe Islands
+2010,GA,3,Gabon
+2010,LS,3,Lesotho
+2010,SV,3,El Salvador
+2010,AF,2,Afghanistan
+2010,AO,2,Angola
+2010,BM,2,Bermuda
+2010,BT,2,Bhutan
+2010,CW,2,Curaçao
+2010,GD,2,Grenada
+2010,GL,2,Greenland
+2010,GM,2,Gambia
+2010,GW,2,Guinea-Bissau
+2010,IM,2,Isle of Man
+2010,KY,2,Cayman Islands
+2010,LR,2,Liberia
+2010,MC,2,Monaco
+2010,MG,2,Madagascar
+2010,MR,2,Mauritania
+2010,NC,2,New Caledonia
+2010,PG,2,Papua New Guinea
+2010,SC,2,Seychelles
+2010,ST,2,Sao Tome and Principe
+2010,SZ,2,Eswatini
+2010,TG,2,Togo
+2010,TM,2,Turkmenistan
+2010,VI,2,"Virgin Islands, U.S."
+2010,BZ,1,Belize
+2010,CV,1,Cabo Verde
+2010,GY,1,Guyana
+2010,HT,1,Haiti
+2010,JE,1,Jersey
+2010,MQ,1,Martinique
+2010,MV,1,Maldives
+2010,PW,1,Palau
+2011,CN,120012,China
+2011,US,81206,United States
+2011,GB,22438,United Kingdom
+2011,DE,18572,Germany
+2011,JP,18157,Japan
+2011,FR,16439,France
+2011,CA,13444,Canada
+2011,IN,11031,India
+2011,IT,11014,Italy
+2011,ES,10378,Spain
+2011,AU,10219,Australia
+2011,KR,9715,"Korea, Republic of"
+2011,TW,7903,"Taiwan, Province of China"
+2011,IR,6844,"Iran, Islamic Republic of"
+2011,NL,6831,Netherlands
+2011,BR,5130,Brazil
+2011,CH,4508,Switzerland
+2011,SE,4043,Sweden
+2011,BE,3912,Belgium
+2011,PL,3871,Poland
+2011,HK,3762,Hong Kong
+2011,MY,3691,Malaysia
+2011,TR,3422,Türkiye
+2011,RU,3356,Russian Federation
+2011,SG,3259,Singapore
+2011,AT,2700,Austria
+2011,GR,2687,Greece
+2011,MX,2604,Mexico
+2011,PT,2585,Portugal
+2011,IL,2486,Israel
+2011,DK,2371,Denmark
+2011,FI,2268,Finland
+2011,CZ,2231,Czechia
+2011,RO,2053,Romania
+2011,NO,1937,Norway
+2011,NZ,1872,New Zealand
+2011,IE,1607,Ireland
+2011,ZA,1593,South Africa
+2011,TH,1248,Thailand
+2011,EG,1237,Egypt
+2011,ID,1166,Indonesia
+2011,HU,1130,Hungary
+2011,SA,1072,Saudi Arabia
+2011,CO,908,Colombia
+2011,PK,882,Pakistan
+2011,AR,852,Argentina
+2011,TN,798,Tunisia
+2011,RS,781,Serbia
+2011,DZ,776,Algeria
+2011,SI,772,Slovenia
+2011,CL,766,Chile
+2011,UA,757,Ukraine
+2011,SK,665,Slovakia
+2011,HR,522,Croatia
+2011,VN,497,Viet Nam
+2011,AE,458,United Arab Emirates
+2011,BG,452,Bulgaria
+2011,BD,438,Bangladesh
+2011,JO,396,Jordan
+2011,MA,396,Morocco
+2011,NG,364,Nigeria
+2011,LT,358,Lithuania
+2011,CY,347,Cyprus
+2011,LV,277,Latvia
+2011,MO,277,Macao
+2011,IQ,272,Iraq
+2011,QA,271,Qatar
+2011,LU,256,Luxembourg
+2011,LB,250,Lebanon
+2011,EE,241,Estonia
+2011,CU,215,Cuba
+2011,VE,178,"Venezuela, Bolivarian Republic of"
+2011,IS,174,Iceland
+2011,LK,167,Sri Lanka
+2011,KW,163,Kuwait
+2011,PH,163,Philippines
+2011,MK,157,North Macedonia
+2011,BY,149,Belarus
+2011,KE,125,Kenya
+2011,OM,117,Oman
+2011,TJ,117,Tajikistan
+2011,MN,116,Mongolia
+2011,NP,116,Nepal
+2011,PR,102,Puerto Rico
+2011,BA,101,Bosnia and Herzegovina
+2011,GH,98,Ghana
+2011,UY,94,Uruguay
+2011,CR,85,Costa Rica
+2011,AZ,84,Azerbaijan
+2011,YE,82,Yemen
+2011,PE,79,Peru
+2011,UG,77,Uganda
+2011,PS,76,"Palestine, State of"
+2011,EC,67,Ecuador
+2011,CM,65,Cameroon
+2011,AM,63,Armenia
+2011,MM,63,Myanmar
+2011,ZW,63,Zimbabwe
+2011,BH,62,Bahrain
+2011,ET,61,Ethiopia
+2011,KZ,59,Kazakhstan
+2011,TZ,57,"Tanzania, United Republic of"
+2011,AL,51,Albania
+2011,MT,50,Malta
+2011,KH,49,Cambodia
+2011,SD,47,Sudan
+2011,BW,44,Botswana
+2011,GE,42,Georgia
+2011,ME,41,Montenegro
+2011,JM,40,Jamaica
+2011,BI,39,Burundi
+2011,BO,38,"Bolivia, Plurinational State of"
+2011,SY,38,Syrian Arab Republic
+2011,VG,37,"Virgin Islands, British"
+2011,MD,34,"Moldova, Republic of"
+2011,SS,34,South Sudan
+2011,TT,30,Trinidad and Tobago
+2011,PA,26,Panama
+2011,UZ,26,Uzbekistan
+2011,MZ,25,Mozambique
+2011,SN,25,Senegal
+2011,LY,22,Libya
+2011,MU,22,Mauritius
+2011,FJ,20,Fiji
+2011,BN,19,Brunei Darussalam
+2011,CI,18,Côte d'Ivoire
+2011,GP,18,Guadeloupe
+2011,LI,18,Liechtenstein
+2011,MW,18,Malawi
+2011,PY,18,Paraguay
+2011,XK,18,XK
+2011,NA,17,Namibia
+2011,ML,16,Mali
+2011,NE,16,Niger
+2011,RE,14,Réunion
+2011,ZM,14,Zambia
+2011,BF,12,Burkina Faso
+2011,HN,12,Honduras
+2011,NI,12,Nicaragua
+2011,BJ,9,Benin
+2011,DO,9,Dominican Republic
+2011,GA,9,Gabon
+2011,GT,8,Guatemala
+2011,PF,8,French Polynesia
+2011,TM,8,Turkmenistan
+2011,KG,7,Kyrgyzstan
+2011,LA,7,Lao People's Democratic Republic
+2011,CG,6,Congo
+2011,MC,6,Monaco
+2011,TG,6,Togo
+2011,AF,5,Afghanistan
+2011,BB,5,Barbados
+2011,BS,5,Bahamas
+2011,CD,5,"Congo, The Democratic Republic of the"
+2011,KY,5,Cayman Islands
+2011,NC,5,New Caledonia
+2011,SZ,5,Eswatini
+2011,GD,4,Grenada
+2011,GF,4,French Guiana
+2011,GU,4,Guam
+2011,LR,4,Liberia
+2011,RW,4,Rwanda
+2011,FO,3,Faroe Islands
+2011,MG,3,Madagascar
+2011,MQ,3,Martinique
+2011,PG,3,Papua New Guinea
+2011,AG,2,Antigua and Barbuda
+2011,BM,2,Bermuda
+2011,ER,2,Eritrea
+2011,GL,2,Greenland
+2011,GY,2,Guyana
+2011,KP,2,"Korea, Democratic People's Republic of"
+2011,SO,2,Somalia
+2011,ST,2,Sao Tome and Principe
+2011,SV,2,El Salvador
+2011,VI,2,"Virgin Islands, U.S."
+2011,WS,2,Samoa
+2011,AD,1,Andorra
+2011,AO,1,Angola
+2011,BZ,1,Belize
+2011,CF,1,Central African Republic
+2011,CW,1,Curaçao
+2011,DJ,1,Djibouti
+2011,DM,1,Dominica
+2011,GW,1,Guinea-Bissau
+2011,LS,1,Lesotho
+2011,MP,1,Northern Mariana Islands
+2011,MV,1,Maldives
+2011,NU,1,Niue
+2011,SL,1,Sierra Leone
+2012,CN,106796,China
+2012,US,81462,United States
+2012,GB,23402,United Kingdom
+2012,DE,20044,Germany
+2012,JP,18619,Japan
+2012,FR,17530,France
+2012,IN,14422,India
+2012,CA,13641,Canada
+2012,IT,11736,Italy
+2012,AU,11065,Australia
+2012,ES,10540,Spain
+2012,KR,10227,"Korea, Republic of"
+2012,TW,7625,"Taiwan, Province of China"
+2012,NL,7313,Netherlands
+2012,IR,7245,"Iran, Islamic Republic of"
+2012,BR,5740,Brazil
+2012,CH,4758,Switzerland
+2012,PL,4351,Poland
+2012,SE,4239,Sweden
+2012,BE,4198,Belgium
+2012,MY,4113,Malaysia
+2012,TR,3711,Türkiye
+2012,HK,3689,Hong Kong
+2012,RU,3581,Russian Federation
+2012,SG,3361,Singapore
+2012,PT,2924,Portugal
+2012,AT,2762,Austria
+2012,DK,2694,Denmark
+2012,MX,2656,Mexico
+2012,IL,2600,Israel
+2012,FI,2557,Finland
+2012,GR,2557,Greece
+2012,RO,2375,Romania
+2012,CZ,2346,Czechia
+2012,NO,2204,Norway
+2012,ZA,1797,South Africa
+2012,NZ,1754,New Zealand
+2012,EG,1644,Egypt
+2012,ID,1589,Indonesia
+2012,IE,1547,Ireland
+2012,SA,1353,Saudi Arabia
+2012,TH,1350,Thailand
+2012,HU,1225,Hungary
+2012,PK,1157,Pakistan
+2012,CO,1057,Colombia
+2012,RS,949,Serbia
+2012,TN,939,Tunisia
+2012,DZ,917,Algeria
+2012,UA,896,Ukraine
+2012,AR,884,Argentina
+2012,SI,816,Slovenia
+2012,SK,812,Slovakia
+2012,CL,804,Chile
+2012,BD,602,Bangladesh
+2012,VN,599,Viet Nam
+2012,HR,581,Croatia
+2012,MA,577,Morocco
+2012,AE,504,United Arab Emirates
+2012,BG,490,Bulgaria
+2012,LT,490,Lithuania
+2012,NG,471,Nigeria
+2012,JO,469,Jordan
+2012,CY,397,Cyprus
+2012,IQ,370,Iraq
+2012,QA,353,Qatar
+2012,MO,325,Macao
+2012,LV,304,Latvia
+2012,LU,299,Luxembourg
+2012,LB,278,Lebanon
+2012,CU,276,Cuba
+2012,EE,260,Estonia
+2012,PH,247,Philippines
+2012,NP,191,Nepal
+2012,LK,183,Sri Lanka
+2012,VE,165,"Venezuela, Bolivarian Republic of"
+2012,OM,158,Oman
+2012,MK,157,North Macedonia
+2012,GH,153,Ghana
+2012,IS,142,Iceland
+2012,AZ,141,Azerbaijan
+2012,BA,139,Bosnia and Herzegovina
+2012,KW,136,Kuwait
+2012,BY,129,Belarus
+2012,MN,126,Mongolia
+2012,KE,125,Kenya
+2012,UY,119,Uruguay
+2012,PR,118,Puerto Rico
+2012,CR,114,Costa Rica
+2012,KZ,103,Kazakhstan
+2012,MT,102,Malta
+2012,EC,100,Ecuador
+2012,TJ,98,Tajikistan
+2012,PE,91,Peru
+2012,PS,91,"Palestine, State of"
+2012,YE,87,Yemen
+2012,CM,85,Cameroon
+2012,GE,79,Georgia
+2012,ET,76,Ethiopia
+2012,ZW,71,Zimbabwe
+2012,ME,65,Montenegro
+2012,TZ,64,"Tanzania, United Republic of"
+2012,UG,60,Uganda
+2012,BH,59,Bahrain
+2012,AM,55,Armenia
+2012,MM,55,Myanmar
+2012,SD,51,Sudan
+2012,BW,50,Botswana
+2012,AL,49,Albania
+2012,JM,49,Jamaica
+2012,BN,47,Brunei Darussalam
+2012,KH,44,Cambodia
+2012,VG,44,"Virgin Islands, British"
+2012,PA,43,Panama
+2012,SY,41,Syrian Arab Republic
+2012,UZ,41,Uzbekistan
+2012,LY,39,Libya
+2012,SS,39,South Sudan
+2012,BI,38,Burundi
+2012,FJ,34,Fiji
+2012,BO,33,"Bolivia, Plurinational State of"
+2012,BF,32,Burkina Faso
+2012,SN,31,Senegal
+2012,MD,30,"Moldova, Republic of"
+2012,MZ,28,Mozambique
+2012,TT,28,Trinidad and Tobago
+2012,MU,25,Mauritius
+2012,GP,24,Guadeloupe
+2012,XK,21,XK
+2012,BJ,20,Benin
+2012,CI,19,Côte d'Ivoire
+2012,MW,18,Malawi
+2012,GT,17,Guatemala
+2012,RE,17,Réunion
+2012,NE,16,Niger
+2012,PY,16,Paraguay
+2012,ML,14,Mali
+2012,RW,14,Rwanda
+2012,LI,13,Liechtenstein
+2012,MC,12,Monaco
+2012,DO,11,Dominican Republic
+2012,KP,11,"Korea, Democratic People's Republic of"
+2012,MG,10,Madagascar
+2012,ZM,10,Zambia
+2012,NA,9,Namibia
+2012,NI,9,Nicaragua
+2012,CD,8,"Congo, The Democratic Republic of the"
+2012,GD,8,Grenada
+2012,TM,8,Turkmenistan
+2012,AO,7,Angola
+2012,BB,7,Barbados
+2012,NC,7,New Caledonia
+2012,PF,7,French Polynesia
+2012,SV,7,El Salvador
+2012,GA,6,Gabon
+2012,GU,6,Guam
+2012,AF,5,Afghanistan
+2012,KG,5,Kyrgyzstan
+2012,LA,5,Lao People's Democratic Republic
+2012,MR,5,Mauritania
+2012,HN,4,Honduras
+2012,LR,4,Liberia
+2012,PG,4,Papua New Guinea
+2012,TG,4,Togo
+2012,BM,3,Bermuda
+2012,BS,3,Bahamas
+2012,CW,3,Curaçao
+2012,FO,3,Faroe Islands
+2012,GL,3,Greenland
+2012,GY,3,Guyana
+2012,LS,3,Lesotho
+2012,MV,3,Maldives
+2012,SZ,3,Eswatini
+2012,CG,2,Congo
+2012,KY,2,Cayman Islands
+2012,MQ,2,Martinique
+2012,PW,2,Palau
+2012,SC,2,Seychelles
+2012,TD,2,Chad
+2012,VI,2,"Virgin Islands, U.S."
+2012,WS,2,Samoa
+2012,AD,1,Andorra
+2012,AG,1,Antigua and Barbuda
+2012,DJ,1,Djibouti
+2012,DM,1,Dominica
+2012,GM,1,Gambia
+2012,GN,1,Guinea
+2012,GQ,1,Equatorial Guinea
+2012,GW,1,Guinea-Bissau
+2012,IM,1,Isle of Man
+2012,KN,1,Saint Kitts and Nevis
+2012,SJ,1,Svalbard and Jan Mayen
+2012,SM,1,San Marino
+2012,SR,1,Suriname
+2012,TL,1,Timor-Leste
+2012,TO,1,Tonga
+2012,VA,1,Holy See (Vatican City State)
+2012,VU,1,Vanuatu
+2013,CN,103993,China
+2013,US,85341,United States
+2013,GB,25233,United Kingdom
+2013,DE,20213,Germany
+2013,FR,18809,France
+2013,JP,18616,Japan
+2013,IN,15692,India
+2013,CA,14023,Canada
+2013,IT,12562,Italy
+2013,AU,11846,Australia
+2013,KR,11038,"Korea, Republic of"
+2013,ES,10873,Spain
+2013,TW,7752,"Taiwan, Province of China"
+2013,IR,7499,"Iran, Islamic Republic of"
+2013,NL,7426,Netherlands
+2013,BR,6342,Brazil
+2013,PL,5448,Poland
+2013,CH,5149,Switzerland
+2013,MY,4585,Malaysia
+2013,SE,4538,Sweden
+2013,RU,4401,Russian Federation
+2013,BE,4347,Belgium
+2013,TR,4118,Türkiye
+2013,HK,3786,Hong Kong
+2013,SG,3593,Singapore
+2013,PT,3177,Portugal
+2013,AT,3047,Austria
+2013,DK,2946,Denmark
+2013,MX,2907,Mexico
+2013,FI,2857,Finland
+2013,IL,2809,Israel
+2013,GR,2651,Greece
+2013,CZ,2528,Czechia
+2013,RO,2429,Romania
+2013,NO,2258,Norway
+2013,ID,2146,Indonesia
+2013,NZ,1964,New Zealand
+2013,ZA,1932,South Africa
+2013,SA,1850,Saudi Arabia
+2013,EG,1830,Egypt
+2013,IE,1536,Ireland
+2013,TH,1457,Thailand
+2013,PK,1396,Pakistan
+2013,DZ,1332,Algeria
+2013,UA,1250,Ukraine
+2013,TN,1240,Tunisia
+2013,HU,1198,Hungary
+2013,CO,1196,Colombia
+2013,SK,1049,Slovakia
+2013,AR,967,Argentina
+2013,CL,956,Chile
+2013,RS,877,Serbia
+2013,SI,836,Slovenia
+2013,VN,821,Viet Nam
+2013,BD,670,Bangladesh
+2013,NG,648,Nigeria
+2013,HR,609,Croatia
+2013,AE,602,United Arab Emirates
+2013,MA,587,Morocco
+2013,BG,542,Bulgaria
+2013,IQ,517,Iraq
+2013,QA,514,Qatar
+2013,JO,485,Jordan
+2013,CY,480,Cyprus
+2013,LT,468,Lithuania
+2013,MO,411,Macao
+2013,LU,366,Luxembourg
+2013,LV,331,Latvia
+2013,LB,322,Lebanon
+2013,EE,309,Estonia
+2013,CU,287,Cuba
+2013,LK,252,Sri Lanka
+2013,PH,240,Philippines
+2013,MN,223,Mongolia
+2013,VE,208,"Venezuela, Bolivarian Republic of"
+2013,NP,207,Nepal
+2013,GH,197,Ghana
+2013,KE,186,Kenya
+2013,IS,176,Iceland
+2013,OM,175,Oman
+2013,BY,173,Belarus
+2013,MK,170,North Macedonia
+2013,KW,166,Kuwait
+2013,BA,160,Bosnia and Herzegovina
+2013,KZ,157,Kazakhstan
+2013,YE,140,Yemen
+2013,ZW,134,Zimbabwe
+2013,UY,124,Uruguay
+2013,AL,122,Albania
+2013,PE,117,Peru
+2013,CR,113,Costa Rica
+2013,CM,111,Cameroon
+2013,PR,111,Puerto Rico
+2013,EC,105,Ecuador
+2013,ET,103,Ethiopia
+2013,PS,96,"Palestine, State of"
+2013,SD,95,Sudan
+2013,MT,94,Malta
+2013,TJ,88,Tajikistan
+2013,AZ,82,Azerbaijan
+2013,UG,82,Uganda
+2013,AM,80,Armenia
+2013,ME,77,Montenegro
+2013,KH,70,Cambodia
+2013,TZ,63,"Tanzania, United Republic of"
+2013,LY,62,Libya
+2013,BI,58,Burundi
+2013,BW,58,Botswana
+2013,MM,58,Myanmar
+2013,GE,55,Georgia
+2013,BH,52,Bahrain
+2013,FJ,44,Fiji
+2013,JM,44,Jamaica
+2013,MD,44,"Moldova, Republic of"
+2013,BN,41,Brunei Darussalam
+2013,MZ,40,Mozambique
+2013,SS,40,South Sudan
+2013,MU,39,Mauritius
+2013,SY,39,Syrian Arab Republic
+2013,VG,39,"Virgin Islands, British"
+2013,PA,38,Panama
+2013,UZ,36,Uzbekistan
+2013,NA,31,Namibia
+2013,XK,31,XK
+2013,GP,30,Guadeloupe
+2013,TT,30,Trinidad and Tobago
+2013,MW,29,Malawi
+2013,BF,27,Burkina Faso
+2013,BJ,26,Benin
+2013,BO,26,"Bolivia, Plurinational State of"
+2013,SN,26,Senegal
+2013,PY,24,Paraguay
+2013,CI,22,Côte d'Ivoire
+2013,NE,19,Niger
+2013,RE,19,Réunion
+2013,LI,15,Liechtenstein
+2013,ML,14,Mali
+2013,NI,14,Nicaragua
+2013,RW,14,Rwanda
+2013,MG,13,Madagascar
+2013,GT,12,Guatemala
+2013,CG,11,Congo
+2013,DO,11,Dominican Republic
+2013,HN,11,Honduras
+2013,BM,10,Bermuda
+2013,NC,9,New Caledonia
+2013,ZM,9,Zambia
+2013,CD,8,"Congo, The Democratic Republic of the"
+2013,GA,8,Gabon
+2013,BB,7,Barbados
+2013,GU,7,Guam
+2013,KG,7,Kyrgyzstan
+2013,LA,7,Lao People's Democratic Republic
+2013,VI,7,"Virgin Islands, U.S."
+2013,AF,6,Afghanistan
+2013,BT,6,Bhutan
+2013,GL,6,Greenland
+2013,PF,6,French Polynesia
+2013,AO,5,Angola
+2013,KP,5,"Korea, Democratic People's Republic of"
+2013,LR,5,Liberia
+2013,MC,5,Monaco
+2013,MQ,5,Martinique
+2013,PG,5,Papua New Guinea
+2013,BS,4,Bahamas
+2013,FO,4,Faroe Islands
+2013,GD,4,Grenada
+2013,MV,4,Maldives
+2013,SM,4,San Marino
+2013,TG,4,Togo
+2013,CW,3,Curaçao
+2013,ER,3,Eritrea
+2013,GF,3,French Guiana
+2013,GM,3,Gambia
+2013,SL,3,Sierra Leone
+2013,SV,3,El Salvador
+2013,TD,3,Chad
+2013,AX,2,Åland Islands
+2013,BZ,2,Belize
+2013,DJ,2,Djibouti
+2013,GY,2,Guyana
+2013,KY,2,Cayman Islands
+2013,PW,2,Palau
+2013,SJ,2,Svalbard and Jan Mayen
+2013,AG,1,Antigua and Barbuda
+2013,FM,1,"Micronesia, Federated States of"
+2013,GI,1,Gibraltar
+2013,GW,1,Guinea-Bissau
+2013,JE,1,Jersey
+2013,KN,1,Saint Kitts and Nevis
+2013,LS,1,Lesotho
+2013,MP,1,Northern Mariana Islands
+2013,MS,1,Montserrat
+2013,SO,1,Somalia
+2013,SX,1,Sint Maarten (Dutch part)
+2013,SZ,1,Eswatini
+2013,TL,1,Timor-Leste
+2013,TM,1,Turkmenistan
+2014,CN,98918,China
+2014,US,87907,United States
+2014,GB,26121,United Kingdom
+2014,DE,21210,Germany
+2014,FR,19471,France
+2014,IN,19437,India
+2014,JP,18456,Japan
+2014,CA,14887,Canada
+2014,IT,13217,Italy
+2014,AU,12548,Australia
+2014,KR,11324,"Korea, Republic of"
+2014,ES,10887,Spain
+2014,IR,8308,"Iran, Islamic Republic of"
+2014,NL,7796,Netherlands
+2014,TW,7171,"Taiwan, Province of China"
+2014,BR,6841,Brazil
+2014,PL,6019,Poland
+2014,RU,5881,Russian Federation
+2014,MY,5381,Malaysia
+2014,CH,5320,Switzerland
+2014,SE,5002,Sweden
+2014,BE,4409,Belgium
+2014,TR,4352,Türkiye
+2014,HK,4142,Hong Kong
+2014,SG,3882,Singapore
+2014,PT,3475,Portugal
+2014,DK,3159,Denmark
+2014,MX,3037,Mexico
+2014,AT,3012,Austria
+2014,CZ,3000,Czechia
+2014,GR,2991,Greece
+2014,FI,2972,Finland
+2014,IL,2956,Israel
+2014,ID,2786,Indonesia
+2014,RO,2647,Romania
+2014,NO,2520,Norway
+2014,ZA,2294,South Africa
+2014,SA,2257,Saudi Arabia
+2014,EG,2067,Egypt
+2014,NZ,1966,New Zealand
+2014,TH,1848,Thailand
+2014,PK,1696,Pakistan
+2014,IE,1635,Ireland
+2014,DZ,1425,Algeria
+2014,TN,1401,Tunisia
+2014,HU,1344,Hungary
+2014,UA,1308,Ukraine
+2014,SK,1257,Slovakia
+2014,CO,1235,Colombia
+2014,RS,1072,Serbia
+2014,AR,1068,Argentina
+2014,CL,1058,Chile
+2014,BD,1035,Bangladesh
+2014,VN,960,Viet Nam
+2014,MA,882,Morocco
+2014,SI,850,Slovenia
+2014,NG,806,Nigeria
+2014,HR,702,Croatia
+2014,QA,645,Qatar
+2014,BG,640,Bulgaria
+2014,AE,620,United Arab Emirates
+2014,JO,576,Jordan
+2014,LT,571,Lithuania
+2014,IQ,534,Iraq
+2014,MO,506,Macao
+2014,CY,453,Cyprus
+2014,LU,440,Luxembourg
+2014,LB,354,Lebanon
+2014,LV,353,Latvia
+2014,EE,350,Estonia
+2014,PH,324,Philippines
+2014,MN,289,Mongolia
+2014,NP,282,Nepal
+2014,KZ,274,Kazakhstan
+2014,LK,274,Sri Lanka
+2014,CU,266,Cuba
+2014,BY,222,Belarus
+2014,KE,217,Kenya
+2014,GH,209,Ghana
+2014,MK,205,North Macedonia
+2014,OM,204,Oman
+2014,EC,202,Ecuador
+2014,BA,189,Bosnia and Herzegovina
+2014,PE,189,Peru
+2014,IS,187,Iceland
+2014,KW,181,Kuwait
+2014,VE,170,"Venezuela, Bolivarian Republic of"
+2014,YE,164,Yemen
+2014,AL,146,Albania
+2014,ET,144,Ethiopia
+2014,UY,131,Uruguay
+2014,CM,128,Cameroon
+2014,MT,117,Malta
+2014,PR,116,Puerto Rico
+2014,TJ,113,Tajikistan
+2014,VG,111,"Virgin Islands, British"
+2014,CR,107,Costa Rica
+2014,ZW,100,Zimbabwe
+2014,AZ,96,Azerbaijan
+2014,PS,92,"Palestine, State of"
+2014,TZ,83,"Tanzania, United Republic of"
+2014,UG,83,Uganda
+2014,SD,82,Sudan
+2014,BH,75,Bahrain
+2014,AM,69,Armenia
+2014,ME,68,Montenegro
+2014,KH,67,Cambodia
+2014,LY,67,Libya
+2014,FJ,65,Fiji
+2014,GE,61,Georgia
+2014,MD,61,"Moldova, Republic of"
+2014,MM,61,Myanmar
+2014,BI,59,Burundi
+2014,BN,55,Brunei Darussalam
+2014,UZ,55,Uzbekistan
+2014,SN,52,Senegal
+2014,BO,48,"Bolivia, Plurinational State of"
+2014,JM,42,Jamaica
+2014,SS,39,South Sudan
+2014,BW,38,Botswana
+2014,NA,38,Namibia
+2014,MZ,37,Mozambique
+2014,PA,37,Panama
+2014,SY,36,Syrian Arab Republic
+2014,BF,33,Burkina Faso
+2014,GP,32,Guadeloupe
+2014,MU,32,Mauritius
+2014,XK,31,XK
+2014,ZM,31,Zambia
+2014,CI,29,Côte d'Ivoire
+2014,TT,28,Trinidad and Tobago
+2014,BJ,27,Benin
+2014,RW,26,Rwanda
+2014,MW,24,Malawi
+2014,NE,24,Niger
+2014,RE,23,Réunion
+2014,GA,21,Gabon
+2014,PY,18,Paraguay
+2014,LI,17,Liechtenstein
+2014,MG,17,Madagascar
+2014,ML,17,Mali
+2014,GT,16,Guatemala
+2014,PG,14,Papua New Guinea
+2014,DO,13,Dominican Republic
+2014,NI,11,Nicaragua
+2014,BB,10,Barbados
+2014,KG,9,Kyrgyzstan
+2014,PF,9,French Polynesia
+2014,NC,8,New Caledonia
+2014,CD,7,"Congo, The Democratic Republic of the"
+2014,GM,7,Gambia
+2014,KP,7,"Korea, Democratic People's Republic of"
+2014,LA,7,Lao People's Democratic Republic
+2014,CG,6,Congo
+2014,GD,6,Grenada
+2014,AF,5,Afghanistan
+2014,FO,5,Faroe Islands
+2014,HN,5,Honduras
+2014,AO,4,Angola
+2014,GL,4,Greenland
+2014,GY,4,Guyana
+2014,KY,4,Cayman Islands
+2014,LS,4,Lesotho
+2014,SV,4,El Salvador
+2014,TM,4,Turkmenistan
+2014,BS,3,Bahamas
+2014,BT,3,Bhutan
+2014,KN,3,Saint Kitts and Nevis
+2014,MC,3,Monaco
+2014,MS,3,Montserrat
+2014,MV,3,Maldives
+2014,ST,3,Sao Tome and Principe
+2014,TG,3,Togo
+2014,AW,2,Aruba
+2014,CF,2,Central African Republic
+2014,CW,2,Curaçao
+2014,GI,2,Gibraltar
+2014,HT,2,Haiti
+2014,LR,2,Liberia
+2014,SJ,2,Svalbard and Jan Mayen
+2014,SM,2,San Marino
+2014,SR,2,Suriname
+2014,SZ,2,Eswatini
+2014,TD,2,Chad
+2014,VI,2,"Virgin Islands, U.S."
+2014,VU,2,Vanuatu
+2014,BM,1,Bermuda
+2014,BZ,1,Belize
+2014,CV,1,Cabo Verde
+2014,DJ,1,Djibouti
+2014,DM,1,Dominica
+2014,FM,1,"Micronesia, Federated States of"
+2014,GF,1,French Guiana
+2014,GQ,1,Equatorial Guinea
+2014,GU,1,Guam
+2014,IM,1,Isle of Man
+2014,JE,1,Jersey
+2014,KI,1,Kiribati
+2014,MQ,1,Martinique
+2014,MR,1,Mauritania
+2015,US,90701,United States
+2015,CN,86107,China
+2015,GB,27713,United Kingdom
+2015,DE,22036,Germany
+2015,IN,21609,India
+2015,FR,20269,France
+2015,JP,18593,Japan
+2015,CA,14959,Canada
+2015,IT,14140,Italy
+2015,AU,12925,Australia
+2015,KR,11364,"Korea, Republic of"
+2015,ES,11193,Spain
+2015,IR,9152,"Iran, Islamic Republic of"
+2015,BR,7993,Brazil
+2015,RU,7977,Russian Federation
+2015,NL,7884,Netherlands
+2015,PL,6647,Poland
+2015,TW,6538,"Taiwan, Province of China"
+2015,CH,5768,Switzerland
+2015,MY,5505,Malaysia
+2015,SE,5152,Sweden
+2015,TR,5104,Türkiye
+2015,BE,4820,Belgium
+2015,HK,4244,Hong Kong
+2015,ID,4219,Indonesia
+2015,SG,4108,Singapore
+2015,PT,3634,Portugal
+2015,DK,3398,Denmark
+2015,AT,3188,Austria
+2015,FI,3145,Finland
+2015,CZ,3107,Czechia
+2015,MX,3084,Mexico
+2015,GR,2973,Greece
+2015,RO,2836,Romania
+2015,IL,2789,Israel
+2015,NO,2591,Norway
+2015,SA,2547,Saudi Arabia
+2015,EG,2291,Egypt
+2015,ZA,2174,South Africa
+2015,NZ,2027,New Zealand
+2015,PK,1821,Pakistan
+2015,DZ,1767,Algeria
+2015,IE,1743,Ireland
+2015,TH,1708,Thailand
+2015,TN,1585,Tunisia
+2015,UA,1480,Ukraine
+2015,CO,1430,Colombia
+2015,HU,1343,Hungary
+2015,CL,1253,Chile
+2015,SK,1189,Slovakia
+2015,RS,1137,Serbia
+2015,VN,1133,Viet Nam
+2015,AR,1113,Argentina
+2015,BD,1032,Bangladesh
+2015,MA,956,Morocco
+2015,SI,909,Slovenia
+2015,AE,832,United Arab Emirates
+2015,NG,809,Nigeria
+2015,HR,665,Croatia
+2015,QA,643,Qatar
+2015,BG,623,Bulgaria
+2015,JO,612,Jordan
+2015,IQ,597,Iraq
+2015,LT,572,Lithuania
+2015,MO,558,Macao
+2015,LU,517,Luxembourg
+2015,LV,478,Latvia
+2015,CY,472,Cyprus
+2015,LB,412,Lebanon
+2015,PH,394,Philippines
+2015,EC,345,Ecuador
+2015,EE,342,Estonia
+2015,KZ,340,Kazakhstan
+2015,CU,323,Cuba
+2015,LK,283,Sri Lanka
+2015,KE,282,Kenya
+2015,GH,262,Ghana
+2015,OM,244,Oman
+2015,KW,242,Kuwait
+2015,MK,228,North Macedonia
+2015,NP,223,Nepal
+2015,ET,210,Ethiopia
+2015,IS,210,Iceland
+2015,MN,195,Mongolia
+2015,BY,194,Belarus
+2015,VE,187,"Venezuela, Bolivarian Republic of"
+2015,PE,184,Peru
+2015,UY,166,Uruguay
+2015,BA,164,Bosnia and Herzegovina
+2015,PR,137,Puerto Rico
+2015,AL,134,Albania
+2015,MT,126,Malta
+2015,CM,122,Cameroon
+2015,YE,118,Yemen
+2015,AZ,117,Azerbaijan
+2015,CR,113,Costa Rica
+2015,SD,108,Sudan
+2015,TZ,102,"Tanzania, United Republic of"
+2015,PS,99,"Palestine, State of"
+2015,TJ,94,Tajikistan
+2015,UG,88,Uganda
+2015,ZW,87,Zimbabwe
+2015,PA,86,Panama
+2015,AM,85,Armenia
+2015,ME,84,Montenegro
+2015,MM,82,Myanmar
+2015,VG,75,"Virgin Islands, British"
+2015,LY,70,Libya
+2015,MD,69,"Moldova, Republic of"
+2015,FJ,68,Fiji
+2015,BH,67,Bahrain
+2015,BN,66,Brunei Darussalam
+2015,BI,65,Burundi
+2015,GE,65,Georgia
+2015,KH,61,Cambodia
+2015,SS,59,South Sudan
+2015,BW,58,Botswana
+2015,SN,53,Senegal
+2015,UZ,52,Uzbekistan
+2015,MZ,49,Mozambique
+2015,BJ,40,Benin
+2015,JM,40,Jamaica
+2015,MU,40,Mauritius
+2015,XK,37,XK
+2015,CI,35,Côte d'Ivoire
+2015,NA,35,Namibia
+2015,PY,35,Paraguay
+2015,BO,34,"Bolivia, Plurinational State of"
+2015,SY,34,Syrian Arab Republic
+2015,ZM,34,Zambia
+2015,GT,26,Guatemala
+2015,MW,26,Malawi
+2015,BF,23,Burkina Faso
+2015,ML,23,Mali
+2015,NE,21,Niger
+2015,TT,21,Trinidad and Tobago
+2015,RW,19,Rwanda
+2015,LI,18,Liechtenstein
+2015,RE,17,Réunion
+2015,GP,15,Guadeloupe
+2015,NI,14,Nicaragua
+2015,HN,11,Honduras
+2015,LA,11,Lao People's Democratic Republic
+2015,SV,10,El Salvador
+2015,BS,8,Bahamas
+2015,CD,8,"Congo, The Democratic Republic of the"
+2015,DO,8,Dominican Republic
+2015,KG,8,Kyrgyzstan
+2015,MC,8,Monaco
+2015,MG,8,Madagascar
+2015,PF,8,French Polynesia
+2015,PG,8,Papua New Guinea
+2015,TG,7,Togo
+2015,AW,6,Aruba
+2015,BB,6,Barbados
+2015,BT,6,Bhutan
+2015,FO,6,Faroe Islands
+2015,GL,6,Greenland
+2015,KP,6,"Korea, Democratic People's Republic of"
+2015,CG,5,Congo
+2015,GA,5,Gabon
+2015,GD,5,Grenada
+2015,GM,5,Gambia
+2015,NC,5,New Caledonia
+2015,SL,5,Sierra Leone
+2015,SZ,5,Eswatini
+2015,AF,4,Afghanistan
+2015,AO,4,Angola
+2015,GF,4,French Guiana
+2015,GI,4,Gibraltar
+2015,HT,4,Haiti
+2015,KN,4,Saint Kitts and Nevis
+2015,LR,4,Liberia
+2015,MV,4,Maldives
+2015,TM,4,Turkmenistan
+2015,VU,4,Vanuatu
+2015,KY,3,Cayman Islands
+2015,LS,3,Lesotho
+2015,ST,3,Sao Tome and Principe
+2015,VI,3,"Virgin Islands, U.S."
+2015,CF,2,Central African Republic
+2015,CV,2,Cabo Verde
+2015,DM,2,Dominica
+2015,FM,2,"Micronesia, Federated States of"
+2015,GU,2,Guam
+2015,MR,2,Mauritania
+2015,PW,2,Palau
+2015,SC,2,Seychelles
+2015,SM,2,San Marino
+2015,SO,2,Somalia
+2015,TD,2,Chad
+2015,TL,2,Timor-Leste
+2015,AG,1,Antigua and Barbuda
+2015,BM,1,Bermuda
+2015,CW,1,Curaçao
+2015,DJ,1,Djibouti
+2015,JE,1,Jersey
+2015,KI,1,Kiribati
+2015,MQ,1,Martinique
+2015,MS,1,Montserrat
+2016,US,92149,United States
+2016,CN,75734,China
+2016,GB,29532,United Kingdom
+2016,IN,25835,India
+2016,DE,23131,Germany
+2016,FR,20038,France
+2016,JP,18665,Japan
+2016,CA,15544,Canada
+2016,IT,14441,Italy
+2016,AU,13537,Australia
+2016,ES,11106,Spain
+2016,KR,10924,"Korea, Republic of"
+2016,IR,9595,"Iran, Islamic Republic of"
+2016,RU,9253,Russian Federation
+2016,NL,8439,Netherlands
+2016,BR,8138,Brazil
+2016,PL,7168,Poland
+2016,ID,6366,Indonesia
+2016,TW,6182,"Taiwan, Province of China"
+2016,TR,5756,Türkiye
+2016,CH,5597,Switzerland
+2016,MY,5307,Malaysia
+2016,SE,5290,Sweden
+2016,BE,4793,Belgium
+2016,SG,4389,Singapore
+2016,HK,4368,Hong Kong
+2016,DK,3640,Denmark
+2016,PT,3501,Portugal
+2016,AT,3483,Austria
+2016,CZ,3312,Czechia
+2016,MX,3274,Mexico
+2016,FI,3154,Finland
+2016,IL,3121,Israel
+2016,GR,2965,Greece
+2016,NO,2856,Norway
+2016,SA,2576,Saudi Arabia
+2016,EG,2573,Egypt
+2016,RO,2565,Romania
+2016,ZA,2550,South Africa
+2016,NZ,2219,New Zealand
+2016,PK,2073,Pakistan
+2016,IE,1926,Ireland
+2016,UA,1912,Ukraine
+2016,TH,1875,Thailand
+2016,TN,1829,Tunisia
+2016,DZ,1750,Algeria
+2016,HU,1405,Hungary
+2016,MA,1402,Morocco
+2016,VN,1385,Viet Nam
+2016,CO,1364,Colombia
+2016,CL,1330,Chile
+2016,AR,1275,Argentina
+2016,SK,1167,Slovakia
+2016,RS,1153,Serbia
+2016,BD,1001,Bangladesh
+2016,NG,947,Nigeria
+2016,AE,929,United Arab Emirates
+2016,SI,865,Slovenia
+2016,QA,753,Qatar
+2016,IQ,743,Iraq
+2016,HR,741,Croatia
+2016,JO,667,Jordan
+2016,MO,667,Macao
+2016,BG,634,Bulgaria
+2016,CY,586,Cyprus
+2016,LT,501,Lithuania
+2016,LU,494,Luxembourg
+2016,EC,479,Ecuador
+2016,LB,452,Lebanon
+2016,PH,451,Philippines
+2016,KZ,373,Kazakhstan
+2016,EE,363,Estonia
+2016,KE,346,Kenya
+2016,LV,322,Latvia
+2016,LK,311,Sri Lanka
+2016,GH,304,Ghana
+2016,NP,299,Nepal
+2016,CU,290,Cuba
+2016,PE,269,Peru
+2016,OM,247,Oman
+2016,KW,231,Kuwait
+2016,MK,228,North Macedonia
+2016,BY,220,Belarus
+2016,ET,220,Ethiopia
+2016,IS,214,Iceland
+2016,BA,203,Bosnia and Herzegovina
+2016,CR,178,Costa Rica
+2016,AZ,177,Azerbaijan
+2016,VE,167,"Venezuela, Bolivarian Republic of"
+2016,UY,163,Uruguay
+2016,CM,147,Cameroon
+2016,MT,142,Malta
+2016,SD,138,Sudan
+2016,PR,133,Puerto Rico
+2016,UG,124,Uganda
+2016,PS,121,"Palestine, State of"
+2016,TZ,117,"Tanzania, United Republic of"
+2016,PA,116,Panama
+2016,YE,110,Yemen
+2016,MN,93,Mongolia
+2016,GE,90,Georgia
+2016,TJ,89,Tajikistan
+2016,ME,88,Montenegro
+2016,AL,87,Albania
+2016,LY,83,Libya
+2016,MM,78,Myanmar
+2016,BN,70,Brunei Darussalam
+2016,MD,69,"Moldova, Republic of"
+2016,AM,67,Armenia
+2016,UZ,67,Uzbekistan
+2016,ZW,66,Zimbabwe
+2016,BW,64,Botswana
+2016,FJ,62,Fiji
+2016,BI,61,Burundi
+2016,SS,61,South Sudan
+2016,KH,59,Cambodia
+2016,BH,58,Bahrain
+2016,PY,56,Paraguay
+2016,VG,56,"Virgin Islands, British"
+2016,XK,56,XK
+2016,BO,54,"Bolivia, Plurinational State of"
+2016,CI,53,Côte d'Ivoire
+2016,NA,51,Namibia
+2016,BJ,45,Benin
+2016,TT,45,Trinidad and Tobago
+2016,SN,44,Senegal
+2016,SY,44,Syrian Arab Republic
+2016,MU,36,Mauritius
+2016,MW,36,Malawi
+2016,MZ,35,Mozambique
+2016,JM,34,Jamaica
+2016,ML,34,Mali
+2016,BF,30,Burkina Faso
+2016,GT,30,Guatemala
+2016,ZM,27,Zambia
+2016,RE,26,Réunion
+2016,DO,25,Dominican Republic
+2016,AF,23,Afghanistan
+2016,LI,22,Liechtenstein
+2016,GP,18,Guadeloupe
+2016,RW,18,Rwanda
+2016,CD,17,"Congo, The Democratic Republic of the"
+2016,KG,16,Kyrgyzstan
+2016,MG,16,Madagascar
+2016,BB,14,Barbados
+2016,CG,12,Congo
+2016,PG,12,Papua New Guinea
+2016,SV,12,El Salvador
+2016,AO,11,Angola
+2016,NE,11,Niger
+2016,SZ,11,Eswatini
+2016,CW,10,Curaçao
+2016,NC,10,New Caledonia
+2016,NI,10,Nicaragua
+2016,GF,9,French Guiana
+2016,GU,9,Guam
+2016,HN,9,Honduras
+2016,LA,9,Lao People's Democratic Republic
+2016,PF,9,French Polynesia
+2016,BT,8,Bhutan
+2016,GD,8,Grenada
+2016,FO,7,Faroe Islands
+2016,TG,7,Togo
+2016,BS,6,Bahamas
+2016,ER,6,Eritrea
+2016,CV,5,Cabo Verde
+2016,GM,5,Gambia
+2016,KP,5,"Korea, Democratic People's Republic of"
+2016,LS,5,Lesotho
+2016,MC,5,Monaco
+2016,SL,5,Sierra Leone
+2016,AD,4,Andorra
+2016,DM,4,Dominica
+2016,GA,4,Gabon
+2016,GL,4,Greenland
+2016,GY,4,Guyana
+2016,KN,4,Saint Kitts and Nevis
+2016,LR,4,Liberia
+2016,MQ,4,Martinique
+2016,PW,4,Palau
+2016,ST,4,Sao Tome and Principe
+2016,TD,4,Chad
+2016,VI,4,"Virgin Islands, U.S."
+2016,BM,3,Bermuda
+2016,KY,3,Cayman Islands
+2016,MV,3,Maldives
+2016,TM,3,Turkmenistan
+2016,BZ,2,Belize
+2016,HT,2,Haiti
+2016,MR,2,Mauritania
+2016,VU,2,Vanuatu
+2016,WS,2,Samoa
+2016,AW,1,Aruba
+2016,AX,1,Åland Islands
+2016,DJ,1,Djibouti
+2016,GI,1,Gibraltar
+2016,GW,1,Guinea-Bissau
+2016,IM,1,Isle of Man
+2016,MS,1,Montserrat
+2016,SB,1,Solomon Islands
+2017,US,96048,United States
+2017,CN,85937,China
+2017,GB,30610,United Kingdom
+2017,IN,28062,India
+2017,DE,23683,Germany
+2017,FR,19942,France
+2017,JP,19134,Japan
+2017,CA,16032,Canada
+2017,IT,15141,Italy
+2017,AU,14252,Australia
+2017,ES,11928,Spain
+2017,RU,11119,Russian Federation
+2017,IR,10765,"Iran, Islamic Republic of"
+2017,KR,10620,"Korea, Republic of"
+2017,ID,10557,Indonesia
+2017,NL,8811,Netherlands
+2017,BR,8650,Brazil
+2017,PL,7671,Poland
+2017,TR,6386,Türkiye
+2017,CH,6199,Switzerland
+2017,TW,6140,"Taiwan, Province of China"
+2017,MY,5880,Malaysia
+2017,SE,5403,Sweden
+2017,HK,4905,Hong Kong
+2017,BE,4709,Belgium
+2017,SG,4458,Singapore
+2017,DK,3777,Denmark
+2017,PT,3703,Portugal
+2017,AT,3538,Austria
+2017,MX,3343,Mexico
+2017,FI,3249,Finland
+2017,CZ,3197,Czechia
+2017,IL,3166,Israel
+2017,NO,3135,Norway
+2017,SA,2991,Saudi Arabia
+2017,GR,2988,Greece
+2017,PK,2886,Pakistan
+2017,RO,2872,Romania
+2017,EG,2773,Egypt
+2017,ZA,2644,South Africa
+2017,UA,2494,Ukraine
+2017,NZ,2341,New Zealand
+2017,TH,2191,Thailand
+2017,TN,2127,Tunisia
+2017,DZ,2000,Algeria
+2017,IE,1909,Ireland
+2017,CO,1708,Colombia
+2017,MA,1528,Morocco
+2017,VN,1456,Viet Nam
+2017,HU,1399,Hungary
+2017,CL,1397,Chile
+2017,BD,1289,Bangladesh
+2017,RS,1207,Serbia
+2017,AR,1183,Argentina
+2017,AE,1181,United Arab Emirates
+2017,SK,1153,Slovakia
+2017,NG,1122,Nigeria
+2017,IQ,1009,Iraq
+2017,SI,841,Slovenia
+2017,EC,804,Ecuador
+2017,BG,793,Bulgaria
+2017,JO,775,Jordan
+2017,HR,745,Croatia
+2017,QA,745,Qatar
+2017,CY,740,Cyprus
+2017,MO,665,Macao
+2017,PH,641,Philippines
+2017,LT,570,Lithuania
+2017,LU,523,Luxembourg
+2017,LB,475,Lebanon
+2017,KZ,425,Kazakhstan
+2017,EE,423,Estonia
+2017,LK,416,Sri Lanka
+2017,LV,406,Latvia
+2017,KE,394,Kenya
+2017,GH,355,Ghana
+2017,PE,349,Peru
+2017,NP,325,Nepal
+2017,ET,319,Ethiopia
+2017,OM,313,Oman
+2017,CU,298,Cuba
+2017,MK,272,North Macedonia
+2017,BY,263,Belarus
+2017,KW,254,Kuwait
+2017,BA,252,Bosnia and Herzegovina
+2017,IS,231,Iceland
+2017,CM,213,Cameroon
+2017,PA,181,Panama
+2017,MT,179,Malta
+2017,AZ,175,Azerbaijan
+2017,VE,165,"Venezuela, Bolivarian Republic of"
+2017,PS,162,"Palestine, State of"
+2017,CR,150,Costa Rica
+2017,UY,149,Uruguay
+2017,SD,144,Sudan
+2017,PR,138,Puerto Rico
+2017,UG,131,Uganda
+2017,GE,123,Georgia
+2017,TZ,120,"Tanzania, United Republic of"
+2017,AL,112,Albania
+2017,YE,109,Yemen
+2017,AM,105,Armenia
+2017,MM,103,Myanmar
+2017,LY,98,Libya
+2017,BH,89,Bahrain
+2017,XK,84,XK
+2017,MD,82,"Moldova, Republic of"
+2017,MN,81,Mongolia
+2017,TJ,80,Tajikistan
+2017,ZW,80,Zimbabwe
+2017,ME,78,Montenegro
+2017,BN,73,Brunei Darussalam
+2017,UZ,73,Uzbekistan
+2017,BO,70,"Bolivia, Plurinational State of"
+2017,BW,70,Botswana
+2017,MU,70,Mauritius
+2017,SN,68,Senegal
+2017,PY,65,Paraguay
+2017,FJ,63,Fiji
+2017,VG,62,"Virgin Islands, British"
+2017,CI,61,Côte d'Ivoire
+2017,BI,59,Burundi
+2017,KH,59,Cambodia
+2017,SS,55,South Sudan
+2017,MZ,53,Mozambique
+2017,JM,52,Jamaica
+2017,ML,49,Mali
+2017,NA,49,Namibia
+2017,ZM,49,Zambia
+2017,BJ,47,Benin
+2017,SY,43,Syrian Arab Republic
+2017,BF,38,Burkina Faso
+2017,TT,36,Trinidad and Tobago
+2017,RW,33,Rwanda
+2017,RE,30,Réunion
+2017,GT,29,Guatemala
+2017,KG,26,Kyrgyzstan
+2017,LI,24,Liechtenstein
+2017,MW,24,Malawi
+2017,NI,24,Nicaragua
+2017,CD,21,"Congo, The Democratic Republic of the"
+2017,NE,18,Niger
+2017,PG,14,Papua New Guinea
+2017,GD,13,Grenada
+2017,MG,13,Madagascar
+2017,CG,12,Congo
+2017,GP,12,Guadeloupe
+2017,HN,12,Honduras
+2017,SV,12,El Salvador
+2017,AF,11,Afghanistan
+2017,LA,11,Lao People's Democratic Republic
+2017,BT,10,Bhutan
+2017,DO,10,Dominican Republic
+2017,MC,10,Monaco
+2017,AO,9,Angola
+2017,GM,9,Gambia
+2017,PF,9,French Polynesia
+2017,TG,9,Togo
+2017,KP,8,"Korea, Democratic People's Republic of"
+2017,SM,8,San Marino
+2017,CW,7,Curaçao
+2017,NC,7,New Caledonia
+2017,SL,7,Sierra Leone
+2017,SZ,7,Eswatini
+2017,TD,7,Chad
+2017,BB,6,Barbados
+2017,BS,6,Bahamas
+2017,GF,6,French Guiana
+2017,GL,6,Greenland
+2017,GU,6,Guam
+2017,MS,6,Montserrat
+2017,GA,5,Gabon
+2017,VI,5,"Virgin Islands, U.S."
+2017,PW,4,Palau
+2017,SO,4,Somalia
+2017,TC,4,Turks and Caicos Islands
+2017,FO,3,Faroe Islands
+2017,GI,3,Gibraltar
+2017,GN,3,Guinea
+2017,GY,3,Guyana
+2017,MQ,3,Martinique
+2017,SC,3,Seychelles
+2017,TL,3,Timor-Leste
+2017,BZ,2,Belize
+2017,DJ,2,Djibouti
+2017,DM,2,Dominica
+2017,ER,2,Eritrea
+2017,GQ,2,Equatorial Guinea
+2017,KY,2,Cayman Islands
+2017,LR,2,Liberia
+2017,MR,2,Mauritania
+2017,SR,2,Suriname
+2017,ST,2,Sao Tome and Principe
+2017,TO,2,Tonga
+2017,WS,2,Samoa
+2017,AD,1,Andorra
+2017,CV,1,Cabo Verde
+2017,HT,1,Haiti
+2017,IM,1,Isle of Man
+2017,JE,1,Jersey
+2018,US,106344,United States
+2018,CN,105889,China
+2018,GB,33470,United Kingdom
+2018,IN,32865,India
+2018,DE,25639,Germany
+2018,FR,21051,France
+2018,JP,20975,Japan
+2018,CA,17656,Canada
+2018,ID,16252,Indonesia
+2018,IT,16184,Italy
+2018,AU,15460,Australia
+2018,RU,14195,Russian Federation
+2018,ES,12852,Spain
+2018,KR,12080,"Korea, Republic of"
+2018,IR,11005,"Iran, Islamic Republic of"
+2018,BR,10307,Brazil
+2018,NL,9931,Netherlands
+2018,PL,8061,Poland
+2018,TR,6853,Türkiye
+2018,CH,6709,Switzerland
+2018,MY,6687,Malaysia
+2018,TW,6337,"Taiwan, Province of China"
+2018,SE,5655,Sweden
+2018,HK,5454,Hong Kong
+2018,BE,5209,Belgium
+2018,SG,4834,Singapore
+2018,PT,4051,Portugal
+2018,DK,4046,Denmark
+2018,MX,3955,Mexico
+2018,AT,3878,Austria
+2018,FI,3569,Finland
+2018,PK,3531,Pakistan
+2018,SA,3429,Saudi Arabia
+2018,NO,3397,Norway
+2018,IL,3323,Israel
+2018,UA,3307,Ukraine
+2018,CZ,3278,Czechia
+2018,GR,3247,Greece
+2018,EG,3158,Egypt
+2018,RO,2942,Romania
+2018,ZA,2719,South Africa
+2018,DZ,2607,Algeria
+2018,TH,2446,Thailand
+2018,NZ,2413,New Zealand
+2018,IE,2124,Ireland
+2018,VN,1977,Viet Nam
+2018,TN,1951,Tunisia
+2018,MA,1885,Morocco
+2018,CO,1850,Colombia
+2018,HU,1705,Hungary
+2018,CL,1644,Chile
+2018,BD,1457,Bangladesh
+2018,AE,1456,United Arab Emirates
+2018,NG,1453,Nigeria
+2018,IQ,1415,Iraq
+2018,AR,1343,Argentina
+2018,SK,1284,Slovakia
+2018,RS,1234,Serbia
+2018,JO,987,Jordan
+2018,BG,947,Bulgaria
+2018,SI,911,Slovenia
+2018,HR,892,Croatia
+2018,EC,888,Ecuador
+2018,QA,821,Qatar
+2018,PH,804,Philippines
+2018,MO,747,Macao
+2018,CY,730,Cyprus
+2018,LB,602,Lebanon
+2018,LT,594,Lithuania
+2018,KZ,588,Kazakhstan
+2018,LU,536,Luxembourg
+2018,LK,472,Sri Lanka
+2018,KE,455,Kenya
+2018,GH,448,Ghana
+2018,ET,444,Ethiopia
+2018,PE,440,Peru
+2018,EE,425,Estonia
+2018,LV,357,Latvia
+2018,OM,351,Oman
+2018,CU,345,Cuba
+2018,BA,343,Bosnia and Herzegovina
+2018,NP,322,Nepal
+2018,KW,306,Kuwait
+2018,MK,294,North Macedonia
+2018,BY,283,Belarus
+2018,CM,242,Cameroon
+2018,AZ,239,Azerbaijan
+2018,IS,229,Iceland
+2018,MT,205,Malta
+2018,UY,181,Uruguay
+2018,YE,171,Yemen
+2018,CR,169,Costa Rica
+2018,SD,166,Sudan
+2018,PA,165,Panama
+2018,MM,155,Myanmar
+2018,TZ,152,"Tanzania, United Republic of"
+2018,PS,151,"Palestine, State of"
+2018,UG,149,Uganda
+2018,VE,145,"Venezuela, Bolivarian Republic of"
+2018,AL,137,Albania
+2018,PR,131,Puerto Rico
+2018,BH,122,Bahrain
+2018,AM,117,Armenia
+2018,GE,110,Georgia
+2018,XK,105,XK
+2018,SN,104,Senegal
+2018,LY,96,Libya
+2018,ZW,94,Zimbabwe
+2018,TJ,92,Tajikistan
+2018,ME,91,Montenegro
+2018,MN,89,Mongolia
+2018,UZ,86,Uzbekistan
+2018,BJ,82,Benin
+2018,MZ,81,Mozambique
+2018,VG,81,"Virgin Islands, British"
+2018,SS,78,South Sudan
+2018,BW,76,Botswana
+2018,BN,73,Brunei Darussalam
+2018,MD,73,"Moldova, Republic of"
+2018,MU,73,Mauritius
+2018,KH,69,Cambodia
+2018,BO,67,"Bolivia, Plurinational State of"
+2018,FJ,67,Fiji
+2018,BI,66,Burundi
+2018,CI,60,Côte d'Ivoire
+2018,PY,57,Paraguay
+2018,NA,50,Namibia
+2018,SY,49,Syrian Arab Republic
+2018,ZM,49,Zambia
+2018,BF,43,Burkina Faso
+2018,JM,40,Jamaica
+2018,ML,38,Mali
+2018,RW,38,Rwanda
+2018,TT,38,Trinidad and Tobago
+2018,GT,36,Guatemala
+2018,KG,32,Kyrgyzstan
+2018,MW,32,Malawi
+2018,GP,30,Guadeloupe
+2018,DO,28,Dominican Republic
+2018,LI,26,Liechtenstein
+2018,AF,25,Afghanistan
+2018,HN,21,Honduras
+2018,RE,21,Réunion
+2018,MG,19,Madagascar
+2018,PG,19,Papua New Guinea
+2018,CD,18,"Congo, The Democratic Republic of the"
+2018,LA,16,Lao People's Democratic Republic
+2018,NE,16,Niger
+2018,NI,16,Nicaragua
+2018,SV,15,El Salvador
+2018,FO,14,Faroe Islands
+2018,BT,13,Bhutan
+2018,AO,12,Angola
+2018,CG,12,Congo
+2018,SL,12,Sierra Leone
+2018,GY,11,Guyana
+2018,MC,11,Monaco
+2018,TG,11,Togo
+2018,GA,10,Gabon
+2018,GU,10,Guam
+2018,MR,10,Mauritania
+2018,PF,10,French Polynesia
+2018,SM,10,San Marino
+2018,BB,9,Barbados
+2018,KP,8,"Korea, Democratic People's Republic of"
+2018,GD,7,Grenada
+2018,GM,7,Gambia
+2018,SZ,7,Eswatini
+2018,LS,6,Lesotho
+2018,ER,5,Eritrea
+2018,KY,5,Cayman Islands
+2018,PW,5,Palau
+2018,SO,5,Somalia
+2018,TM,5,Turkmenistan
+2018,VA,5,Holy See (Vatican City State)
+2018,VI,5,"Virgin Islands, U.S."
+2018,CW,4,Curaçao
+2018,HT,4,Haiti
+2018,LC,4,Saint Lucia
+2018,MV,4,Maldives
+2018,NC,4,New Caledonia
+2018,DM,3,Dominica
+2018,GL,3,Greenland
+2018,GN,3,Guinea
+2018,KI,3,Kiribati
+2018,LR,3,Liberia
+2018,MQ,3,Martinique
+2018,TD,3,Chad
+2018,TL,3,Timor-Leste
+2018,AD,2,Andorra
+2018,BS,2,Bahamas
+2018,BZ,2,Belize
+2018,CF,2,Central African Republic
+2018,CV,2,Cabo Verde
+2018,GF,2,French Guiana
+2018,GI,2,Gibraltar
+2018,GW,2,Guinea-Bissau
+2018,IM,2,Isle of Man
+2018,KN,2,Saint Kitts and Nevis
+2018,NU,2,Niue
+2019,CN,129204,China
+2019,US,121641,United States
+2019,GB,36703,United Kingdom
+2019,IN,34375,India
+2019,DE,29292,Germany
+2019,JP,22007,Japan
+2019,FR,21968,France
+2019,ID,21037,Indonesia
+2019,CA,19542,Canada
+2019,RU,17977,Russian Federation
+2019,IT,17748,Italy
+2019,AU,17116,Australia
+2019,ES,13765,Spain
+2019,KR,13600,"Korea, Republic of"
+2019,IR,12094,"Iran, Islamic Republic of"
+2019,NL,11259,Netherlands
+2019,BR,11056,Brazil
+2019,PL,7918,Poland
+2019,TR,7574,Türkiye
+2019,CH,7296,Switzerland
+2019,TW,7206,"Taiwan, Province of China"
+2019,MY,7043,Malaysia
+2019,HK,6497,Hong Kong
+2019,SE,6279,Sweden
+2019,BE,5580,Belgium
+2019,SG,5390,Singapore
+2019,DK,4896,Denmark
+2019,PT,4771,Portugal
+2019,PK,4672,Pakistan
+2019,SA,4622,Saudi Arabia
+2019,MX,4498,Mexico
+2019,UA,4496,Ukraine
+2019,AT,4141,Austria
+2019,FI,3953,Finland
+2019,IL,3872,Israel
+2019,NO,3853,Norway
+2019,EG,3731,Egypt
+2019,CZ,3479,Czechia
+2019,GR,3449,Greece
+2019,RO,3202,Romania
+2019,ZA,3111,South Africa
+2019,VN,2932,Viet Nam
+2019,NZ,2647,New Zealand
+2019,TH,2611,Thailand
+2019,IE,2549,Ireland
+2019,DZ,2410,Algeria
+2019,BD,2298,Bangladesh
+2019,CO,2174,Colombia
+2019,IQ,2090,Iraq
+2019,MA,2068,Morocco
+2019,NG,2021,Nigeria
+2019,HU,1985,Hungary
+2019,AE,1960,United Arab Emirates
+2019,TN,1869,Tunisia
+2019,CL,1679,Chile
+2019,RS,1410,Serbia
+2019,SK,1409,Slovakia
+2019,AR,1277,Argentina
+2019,JO,1249,Jordan
+2019,BG,1155,Bulgaria
+2019,PH,1113,Philippines
+2019,SI,1008,Slovenia
+2019,HR,940,Croatia
+2019,EC,919,Ecuador
+2019,MO,895,Macao
+2019,QA,864,Qatar
+2019,CY,826,Cyprus
+2019,KZ,766,Kazakhstan
+2019,LT,685,Lithuania
+2019,ET,657,Ethiopia
+2019,LB,637,Lebanon
+2019,KE,610,Kenya
+2019,LK,600,Sri Lanka
+2019,EE,587,Estonia
+2019,GH,576,Ghana
+2019,LU,576,Luxembourg
+2019,PE,570,Peru
+2019,BY,471,Belarus
+2019,LV,438,Latvia
+2019,NP,429,Nepal
+2019,OM,377,Oman
+2019,CU,370,Cuba
+2019,KW,362,Kuwait
+2019,BA,357,Bosnia and Herzegovina
+2019,UZ,295,Uzbekistan
+2019,MK,280,North Macedonia
+2019,CM,261,Cameroon
+2019,AZ,227,Azerbaijan
+2019,PA,226,Panama
+2019,PS,225,"Palestine, State of"
+2019,IS,224,Iceland
+2019,YE,223,Yemen
+2019,CR,221,Costa Rica
+2019,MT,205,Malta
+2019,SD,205,Sudan
+2019,MM,204,Myanmar
+2019,UY,201,Uruguay
+2019,TJ,187,Tajikistan
+2019,TZ,185,"Tanzania, United Republic of"
+2019,UG,181,Uganda
+2019,VE,174,"Venezuela, Bolivarian Republic of"
+2019,BH,163,Bahrain
+2019,PR,141,Puerto Rico
+2019,GE,119,Georgia
+2019,LY,110,Libya
+2019,AM,108,Armenia
+2019,SN,107,Senegal
+2019,MN,105,Mongolia
+2019,AL,102,Albania
+2019,ZW,102,Zimbabwe
+2019,MD,100,"Moldova, Republic of"
+2019,MZ,99,Mozambique
+2019,SS,99,South Sudan
+2019,SY,99,Syrian Arab Republic
+2019,BI,90,Burundi
+2019,BJ,90,Benin
+2019,VG,90,"Virgin Islands, British"
+2019,XK,88,XK
+2019,MU,84,Mauritius
+2019,ZM,84,Zambia
+2019,BN,79,Brunei Darussalam
+2019,JM,76,Jamaica
+2019,FJ,74,Fiji
+2019,ME,74,Montenegro
+2019,BW,72,Botswana
+2019,KH,70,Cambodia
+2019,CI,69,Côte d'Ivoire
+2019,RW,64,Rwanda
+2019,BO,63,"Bolivia, Plurinational State of"
+2019,PY,60,Paraguay
+2019,KG,59,Kyrgyzstan
+2019,ML,53,Mali
+2019,TT,53,Trinidad and Tobago
+2019,BF,52,Burkina Faso
+2019,NA,48,Namibia
+2019,MG,43,Madagascar
+2019,MW,41,Malawi
+2019,HN,40,Honduras
+2019,DO,38,Dominican Republic
+2019,GT,38,Guatemala
+2019,AF,36,Afghanistan
+2019,RE,31,Réunion
+2019,KY,28,Cayman Islands
+2019,CD,27,"Congo, The Democratic Republic of the"
+2019,NE,26,Niger
+2019,BT,23,Bhutan
+2019,PG,23,Papua New Guinea
+2019,SZ,22,Eswatini
+2019,LI,21,Liechtenstein
+2019,MC,19,Monaco
+2019,LA,18,Lao People's Democratic Republic
+2019,GP,16,Guadeloupe
+2019,NI,16,Nicaragua
+2019,TG,14,Togo
+2019,SL,13,Sierra Leone
+2019,SV,13,El Salvador
+2019,BB,12,Barbados
+2019,FO,12,Faroe Islands
+2019,GF,11,French Guiana
+2019,GU,11,Guam
+2019,AO,10,Angola
+2019,LS,10,Lesotho
+2019,MR,10,Mauritania
+2019,CG,9,Congo
+2019,BZ,8,Belize
+2019,GA,8,Gabon
+2019,GD,8,Grenada
+2019,HT,8,Haiti
+2019,BS,7,Bahamas
+2019,MQ,7,Martinique
+2019,PF,7,French Polynesia
+2019,SO,7,Somalia
+2019,CW,6,Curaçao
+2019,GL,6,Greenland
+2019,KN,6,Saint Kitts and Nevis
+2019,KP,6,"Korea, Democratic People's Republic of"
+2019,MV,6,Maldives
+2019,SM,6,San Marino
+2019,TD,6,Chad
+2019,TL,6,Timor-Leste
+2019,NC,5,New Caledonia
+2019,GM,4,Gambia
+2019,LR,4,Liberia
+2019,VI,4,"Virgin Islands, U.S."
+2019,AD,3,Andorra
+2019,CF,3,Central African Republic
+2019,FM,3,"Micronesia, Federated States of"
+2019,GI,3,Gibraltar
+2019,GY,3,Guyana
+2019,TC,3,Turks and Caicos Islands
+2019,WS,3,Samoa
+2019,AG,2,Antigua and Barbuda
+2019,AW,2,Aruba
+2019,CV,2,Cabo Verde
+2019,DJ,2,Djibouti
+2019,ER,2,Eritrea
+2019,GN,2,Guinea
+2019,MS,2,Montserrat
+2019,TM,2,Turkmenistan
+2019,VA,2,Holy See (Vatican City State)
+2020,CN,144150,China
+2020,US,134327,United States
+2020,IN,43296,India
+2020,GB,40374,United Kingdom
+2020,DE,31316,Germany
+2020,ID,24960,Indonesia
+2020,JP,22343,Japan
+2020,CA,22014,Canada
+2020,FR,21352,France
+2020,RU,20841,Russian Federation
+2020,IT,19888,Italy
+2020,AU,18860,Australia
+2020,KR,15543,"Korea, Republic of"
+2020,ES,15118,Spain
+2020,IR,13501,"Iran, Islamic Republic of"
+2020,BR,12367,Brazil
+2020,NL,11807,Netherlands
+2020,TR,8747,Türkiye
+2020,CH,8404,Switzerland
+2020,PL,8073,Poland
+2020,TW,8028,"Taiwan, Province of China"
+2020,MY,7371,Malaysia
+2020,HK,7269,Hong Kong
+2020,SE,7054,Sweden
+2020,SA,6501,Saudi Arabia
+2020,SG,6174,Singapore
+2020,PK,5706,Pakistan
+2020,BE,5658,Belgium
+2020,UA,5264,Ukraine
+2020,MX,4811,Mexico
+2020,DK,4810,Denmark
+2020,PT,4791,Portugal
+2020,AT,4709,Austria
+2020,EG,4661,Egypt
+2020,NO,4541,Norway
+2020,IL,4402,Israel
+2020,FI,4353,Finland
+2020,VN,4093,Viet Nam
+2020,GR,4033,Greece
+2020,CZ,3669,Czechia
+2020,ZA,3593,South Africa
+2020,RO,3509,Romania
+2020,NZ,3123,New Zealand
+2020,IQ,2894,Iraq
+2020,CO,2845,Colombia
+2020,IE,2727,Ireland
+2020,TH,2635,Thailand
+2020,NG,2625,Nigeria
+2020,BD,2614,Bangladesh
+2020,DZ,2530,Algeria
+2020,MA,2484,Morocco
+2020,AE,2471,United Arab Emirates
+2020,HU,2151,Hungary
+2020,CL,2050,Chile
+2020,TN,1973,Tunisia
+2020,SK,1505,Slovakia
+2020,AR,1459,Argentina
+2020,RS,1414,Serbia
+2020,JO,1342,Jordan
+2020,BG,1244,Bulgaria
+2020,MO,1206,Macao
+2020,PH,1152,Philippines
+2020,SI,1150,Slovenia
+2020,HR,1124,Croatia
+2020,EC,1042,Ecuador
+2020,QA,1023,Qatar
+2020,ET,1007,Ethiopia
+2020,CY,975,Cyprus
+2020,KZ,868,Kazakhstan
+2020,GH,781,Ghana
+2020,PE,769,Peru
+2020,LK,738,Sri Lanka
+2020,KE,727,Kenya
+2020,LT,719,Lithuania
+2020,LB,688,Lebanon
+2020,EE,655,Estonia
+2020,CR,630,Costa Rica
+2020,UZ,615,Uzbekistan
+2020,LU,543,Luxembourg
+2020,LV,529,Latvia
+2020,NP,529,Nepal
+2020,OM,523,Oman
+2020,BY,474,Belarus
+2020,KW,454,Kuwait
+2020,CU,401,Cuba
+2020,MK,385,North Macedonia
+2020,BA,368,Bosnia and Herzegovina
+2020,CM,353,Cameroon
+2020,PA,335,Panama
+2020,YE,333,Yemen
+2020,AZ,297,Azerbaijan
+2020,PR,273,Puerto Rico
+2020,IS,271,Iceland
+2020,UY,254,Uruguay
+2020,TZ,246,"Tanzania, United Republic of"
+2020,SS,245,South Sudan
+2020,MM,242,Myanmar
+2020,UG,240,Uganda
+2020,BH,236,Bahrain
+2020,TJ,233,Tajikistan
+2020,MT,225,Malta
+2020,PS,218,"Palestine, State of"
+2020,SD,203,Sudan
+2020,GE,158,Georgia
+2020,VE,150,"Venezuela, Bolivarian Republic of"
+2020,LY,149,Libya
+2020,MN,148,Mongolia
+2020,SN,138,Senegal
+2020,ZW,138,Zimbabwe
+2020,SY,127,Syrian Arab Republic
+2020,MD,123,"Moldova, Republic of"
+2020,AM,121,Armenia
+2020,ME,117,Montenegro
+2020,AL,116,Albania
+2020,MZ,114,Mozambique
+2020,KH,112,Cambodia
+2020,BI,111,Burundi
+2020,ZM,111,Zambia
+2020,HN,110,Honduras
+2020,FJ,109,Fiji
+2020,BW,108,Botswana
+2020,BN,105,Brunei Darussalam
+2020,KG,105,Kyrgyzstan
+2020,CI,100,Côte d'Ivoire
+2020,RW,94,Rwanda
+2020,BO,92,"Bolivia, Plurinational State of"
+2020,BJ,89,Benin
+2020,VG,87,"Virgin Islands, British"
+2020,MU,83,Mauritius
+2020,XK,75,XK
+2020,BF,74,Burkina Faso
+2020,MW,72,Malawi
+2020,TT,71,Trinidad and Tobago
+2020,NA,68,Namibia
+2020,PY,66,Paraguay
+2020,JM,65,Jamaica
+2020,KY,64,Cayman Islands
+2020,AF,61,Afghanistan
+2020,DO,58,Dominican Republic
+2020,GT,51,Guatemala
+2020,CD,46,"Congo, The Democratic Republic of the"
+2020,ML,45,Mali
+2020,MG,37,Madagascar
+2020,SZ,36,Eswatini
+2020,NE,29,Niger
+2020,PG,23,Papua New Guinea
+2020,SV,23,El Salvador
+2020,LA,22,Lao People's Democratic Republic
+2020,BT,21,Bhutan
+2020,RE,20,Réunion
+2020,MC,19,Monaco
+2020,NI,18,Nicaragua
+2020,LI,17,Liechtenstein
+2020,SL,17,Sierra Leone
+2020,BB,16,Barbados
+2020,MV,16,Maldives
+2020,TG,16,Togo
+2020,GP,15,Guadeloupe
+2020,GU,15,Guam
+2020,NC,15,New Caledonia
+2020,GD,13,Grenada
+2020,CG,12,Congo
+2020,GA,12,Gabon
+2020,GF,12,French Guiana
+2020,GL,12,Greenland
+2020,GM,12,Gambia
+2020,TL,12,Timor-Leste
+2020,AO,11,Angola
+2020,GY,11,Guyana
+2020,FO,10,Faroe Islands
+2020,LS,10,Lesotho
+2020,VI,10,"Virgin Islands, U.S."
+2020,BS,9,Bahamas
+2020,KN,8,Saint Kitts and Nevis
+2020,LR,8,Liberia
+2020,TM,8,Turkmenistan
+2020,TD,7,Chad
+2020,HT,6,Haiti
+2020,MR,6,Mauritania
+2020,SO,6,Somalia
+2020,ER,5,Eritrea
+2020,AW,4,Aruba
+2020,CV,4,Cabo Verde
+2020,GW,4,Guinea-Bissau
+2020,KP,4,"Korea, Democratic People's Republic of"
+2020,MQ,4,Martinique
+2020,BM,3,Bermuda
+2020,BZ,3,Belize
+2020,CW,3,Curaçao
+2020,DJ,3,Djibouti
+2020,FM,3,"Micronesia, Federated States of"
+2020,GI,3,Gibraltar
+2020,PW,3,Palau
+2020,SC,3,Seychelles
+2020,SM,3,San Marino
+2020,ST,3,Sao Tome and Principe
+2020,TC,3,Turks and Caicos Islands
+2020,AG,2,Antigua and Barbuda
+2020,AS,2,American Samoa
+2020,JE,2,Jersey
+2021,CN,173942,China
+2021,US,129297,United States
+2021,IN,52373,India
+2021,GB,42719,United Kingdom
+2021,DE,34481,Germany
+2021,ID,28751,Indonesia
+2021,CA,24792,Canada
+2021,RU,22900,Russian Federation
+2021,FR,22632,France
+2021,JP,22490,Japan
+2021,IT,22373,Italy
+2021,AU,19731,Australia
+2021,KR,17392,"Korea, Republic of"
+2021,ES,15906,Spain
+2021,IR,14095,"Iran, Islamic Republic of"
+2021,BR,12693,Brazil
+2021,NL,12502,Netherlands
+2021,TR,10837,Türkiye
+2021,MY,9525,Malaysia
+2021,CH,9385,Switzerland
+2021,TW,8918,"Taiwan, Province of China"
+2021,PL,8505,Poland
+2021,SA,8465,Saudi Arabia
+2021,HK,8219,Hong Kong
+2021,SE,7466,Sweden
+2021,PK,7340,Pakistan
+2021,SG,6456,Singapore
+2021,BE,6340,Belgium
+2021,PT,5511,Portugal
+2021,EG,5496,Egypt
+2021,UA,5414,Ukraine
+2021,DK,5284,Denmark
+2021,AT,5244,Austria
+2021,NO,5006,Norway
+2021,IL,4905,Israel
+2021,MX,4792,Mexico
+2021,FI,4643,Finland
+2021,GR,4517,Greece
+2021,VN,4293,Viet Nam
+2021,CZ,3959,Czechia
+2021,ZA,3893,South Africa
+2021,IQ,3824,Iraq
+2021,BD,3680,Bangladesh
+2021,RO,3630,Romania
+2021,TH,3185,Thailand
+2021,IE,3125,Ireland
+2021,NG,3047,Nigeria
+2021,AE,3007,United Arab Emirates
+2021,NZ,3002,New Zealand
+2021,DZ,2803,Algeria
+2021,MA,2541,Morocco
+2021,CO,2306,Colombia
+2021,HU,2295,Hungary
+2021,CL,2294,Chile
+2021,TN,1975,Tunisia
+2021,SK,1628,Slovakia
+2021,RS,1585,Serbia
+2021,JO,1520,Jordan
+2021,PH,1485,Philippines
+2021,MO,1467,Macao
+2021,AR,1466,Argentina
+2021,BG,1399,Bulgaria
+2021,HR,1276,Croatia
+2021,SI,1267,Slovenia
+2021,CY,1232,Cyprus
+2021,ET,1198,Ethiopia
+2021,KZ,1155,Kazakhstan
+2021,UZ,1149,Uzbekistan
+2021,QA,1117,Qatar
+2021,EC,1110,Ecuador
+2021,LK,1046,Sri Lanka
+2021,PE,1013,Peru
+2021,GH,887,Ghana
+2021,LT,813,Lithuania
+2021,EE,778,Estonia
+2021,KE,716,Kenya
+2021,LU,696,Luxembourg
+2021,NP,675,Nepal
+2021,LB,655,Lebanon
+2021,OM,622,Oman
+2021,LV,566,Latvia
+2021,YE,501,Yemen
+2021,BY,494,Belarus
+2021,KW,464,Kuwait
+2021,CM,442,Cameroon
+2021,PA,430,Panama
+2021,CU,401,Cuba
+2021,AZ,394,Azerbaijan
+2021,BA,355,Bosnia and Herzegovina
+2021,MK,351,North Macedonia
+2021,BH,313,Bahrain
+2021,PS,309,"Palestine, State of"
+2021,TZ,298,"Tanzania, United Republic of"
+2021,UG,294,Uganda
+2021,IS,292,Iceland
+2021,SD,278,Sudan
+2021,MT,265,Malta
+2021,UY,261,Uruguay
+2021,CR,253,Costa Rica
+2021,LY,239,Libya
+2021,TJ,236,Tajikistan
+2021,GE,195,Georgia
+2021,MN,183,Mongolia
+2021,PR,176,Puerto Rico
+2021,ZW,173,Zimbabwe
+2021,VE,165,"Venezuela, Bolivarian Republic of"
+2021,SS,162,South Sudan
+2021,BN,151,Brunei Darussalam
+2021,AM,150,Armenia
+2021,AL,144,Albania
+2021,KG,140,Kyrgyzstan
+2021,MZ,139,Mozambique
+2021,BW,137,Botswana
+2021,SY,137,Syrian Arab Republic
+2021,RW,135,Rwanda
+2021,KH,127,Cambodia
+2021,MD,127,"Moldova, Republic of"
+2021,SN,127,Senegal
+2021,MM,122,Myanmar
+2021,BI,118,Burundi
+2021,FJ,117,Fiji
+2021,ME,113,Montenegro
+2021,VG,111,"Virgin Islands, British"
+2021,ZM,111,Zambia
+2021,BJ,99,Benin
+2021,CI,92,Côte d'Ivoire
+2021,PY,92,Paraguay
+2021,KY,88,Cayman Islands
+2021,NA,87,Namibia
+2021,BO,85,"Bolivia, Plurinational State of"
+2021,MU,84,Mauritius
+2021,XK,80,XK
+2021,TT,79,Trinidad and Tobago
+2021,MW,75,Malawi
+2021,AF,74,Afghanistan
+2021,JM,67,Jamaica
+2021,GT,66,Guatemala
+2021,ML,59,Mali
+2021,BF,57,Burkina Faso
+2021,BT,52,Bhutan
+2021,HN,46,Honduras
+2021,CD,45,"Congo, The Democratic Republic of the"
+2021,PG,45,Papua New Guinea
+2021,MG,44,Madagascar
+2021,DO,43,Dominican Republic
+2021,LI,31,Liechtenstein
+2021,NE,31,Niger
+2021,RE,29,Réunion
+2021,MC,28,Monaco
+2021,TG,25,Togo
+2021,FO,24,Faroe Islands
+2021,SV,23,El Salvador
+2021,SZ,21,Eswatini
+2021,GF,20,French Guiana
+2021,GM,20,Gambia
+2021,NI,20,Nicaragua
+2021,BB,19,Barbados
+2021,GA,17,Gabon
+2021,GL,16,Greenland
+2021,SO,16,Somalia
+2021,LS,15,Lesotho
+2021,MR,15,Mauritania
+2021,NC,15,New Caledonia
+2021,BS,13,Bahamas
+2021,GD,13,Grenada
+2021,GP,13,Guadeloupe
+2021,GU,13,Guam
+2021,KP,13,"Korea, Democratic People's Republic of"
+2021,PF,13,French Polynesia
+2021,AO,12,Angola
+2021,CG,12,Congo
+2021,GY,12,Guyana
+2021,SL,12,Sierra Leone
+2021,LA,10,Lao People's Democratic Republic
+2021,MV,10,Maldives
+2021,TD,10,Chad
+2021,KN,8,Saint Kitts and Nevis
+2021,MQ,8,Martinique
+2021,ER,7,Eritrea
+2021,GI,7,Gibraltar
+2021,CF,6,Central African Republic
+2021,PW,6,Palau
+2021,TM,6,Turkmenistan
+2021,VI,6,"Virgin Islands, U.S."
+2021,HT,5,Haiti
+2021,LR,5,Liberia
+2021,SC,5,Seychelles
+2021,VA,5,Holy See (Vatican City State)
+2021,AG,4,Antigua and Barbuda
+2021,DJ,4,Djibouti
+2021,GW,4,Guinea-Bissau
+2021,SR,4,Suriname
+2021,CV,3,Cabo Verde
+2021,CW,3,Curaçao
+2021,FK,3,Falkland Islands (Malvinas)
+2021,GN,3,Guinea
+2021,SJ,3,Svalbard and Jan Mayen
+2021,ST,3,Sao Tome and Principe
+2021,TL,3,Timor-Leste
+2021,AD,2,Andorra
+2022,CN,205852,China
+2022,US,117572,United States
+2022,IN,62139,India
+2022,GB,39940,United Kingdom
+2022,DE,33354,Germany
+2022,ID,30181,Indonesia
+2022,FR,22971,France
+2022,IT,22321,Italy
+2022,CA,22246,Canada
+2022,JP,22235,Japan
+2022,AU,18891,Australia
+2022,KR,18661,"Korea, Republic of"
+2022,RU,18477,Russian Federation
+2022,ES,15829,Spain
+2022,IR,12324,"Iran, Islamic Republic of"
+2022,NL,12276,Netherlands
+2022,BR,11832,Brazil
+2022,TR,11764,Türkiye
+2022,SA,10895,Saudi Arabia
+2022,MY,9958,Malaysia
+2022,CH,9160,Switzerland
+2022,TW,9058,"Taiwan, Province of China"
+2022,HK,9004,Hong Kong
+2022,PL,8106,Poland
+2022,PK,8064,Pakistan
+2022,SE,7348,Sweden
+2022,SG,6616,Singapore
+2022,EG,6180,Egypt
+2022,BE,5794,Belgium
+2022,PT,5573,Portugal
+2022,AT,5330,Austria
+2022,NO,5174,Norway
+2022,DK,5143,Denmark
+2022,VN,4653,Viet Nam
+2022,FI,4616,Finland
+2022,UA,4601,Ukraine
+2022,GR,4595,Greece
+2022,MX,4540,Mexico
+2022,IQ,4506,Iraq
+2022,ZA,4231,South Africa
+2022,IL,3971,Israel
+2022,AE,3865,United Arab Emirates
+2022,TH,3750,Thailand
+2022,BD,3721,Bangladesh
+2022,CZ,3705,Czechia
+2022,RO,3636,Romania
+2022,NG,3148,Nigeria
+2022,IE,3086,Ireland
+2022,DZ,3084,Algeria
+2022,MA,3026,Morocco
+2022,HU,2751,Hungary
+2022,NZ,2741,New Zealand
+2022,TN,2278,Tunisia
+2022,CO,2098,Colombia
+2022,CL,2095,Chile
+2022,JO,2048,Jordan
+2022,PH,1966,Philippines
+2022,MO,1938,Macao
+2022,RS,1755,Serbia
+2022,ET,1727,Ethiopia
+2022,SK,1528,Slovakia
+2022,AR,1365,Argentina
+2022,BG,1352,Bulgaria
+2022,QA,1269,Qatar
+2022,HR,1253,Croatia
+2022,CY,1204,Cyprus
+2022,KZ,1187,Kazakhstan
+2022,GH,1109,Ghana
+2022,SI,1105,Slovenia
+2022,EC,1081,Ecuador
+2022,PE,1021,Peru
+2022,LK,1008,Sri Lanka
+2022,UZ,866,Uzbekistan
+2022,NP,859,Nepal
+2022,LT,816,Lithuania
+2022,LB,748,Lebanon
+2022,LU,740,Luxembourg
+2022,KE,736,Kenya
+2022,EE,720,Estonia
+2022,OM,669,Oman
+2022,KW,551,Kuwait
+2022,LV,509,Latvia
+2022,YE,495,Yemen
+2022,BY,475,Belarus
+2022,CM,454,Cameroon
+2022,TZ,434,"Tanzania, United Republic of"
+2022,PA,432,Panama
+2022,BH,425,Bahrain
+2022,AZ,409,Azerbaijan
+2022,BA,388,Bosnia and Herzegovina
+2022,MK,374,North Macedonia
+2022,PS,309,"Palestine, State of"
+2022,UG,307,Uganda
+2022,IS,297,Iceland
+2022,MT,284,Malta
+2022,BN,262,Brunei Darussalam
+2022,SD,261,Sudan
+2022,SS,259,South Sudan
+2022,UY,254,Uruguay
+2022,TJ,253,Tajikistan
+2022,GE,226,Georgia
+2022,MN,224,Mongolia
+2022,ZW,223,Zimbabwe
+2022,CR,222,Costa Rica
+2022,LY,214,Libya
+2022,MD,210,"Moldova, Republic of"
+2022,CU,207,Cuba
+2022,AM,190,Armenia
+2022,AL,187,Albania
+2022,KG,172,Kyrgyzstan
+2022,KH,168,Cambodia
+2022,PR,167,Puerto Rico
+2022,SN,155,Senegal
+2022,RW,148,Rwanda
+2022,SY,147,Syrian Arab Republic
+2022,ZM,138,Zambia
+2022,AF,137,Afghanistan
+2022,VE,130,"Venezuela, Bolivarian Republic of"
+2022,BW,123,Botswana
+2022,MU,121,Mauritius
+2022,BJ,120,Benin
+2022,FJ,118,Fiji
+2022,ME,117,Montenegro
+2022,MZ,115,Mozambique
+2022,VG,105,"Virgin Islands, British"
+2022,XK,103,XK
+2022,BI,99,Burundi
+2022,CI,98,Côte d'Ivoire
+2022,MW,98,Malawi
+2022,MM,88,Myanmar
+2022,BF,83,Burkina Faso
+2022,BO,80,"Bolivia, Plurinational State of"
+2022,TT,79,Trinidad and Tobago
+2022,CD,76,"Congo, The Democratic Republic of the"
+2022,KY,67,Cayman Islands
+2022,PY,66,Paraguay
+2022,NA,61,Namibia
+2022,ML,58,Mali
+2022,HN,52,Honduras
+2022,GT,48,Guatemala
+2022,JM,47,Jamaica
+2022,BT,45,Bhutan
+2022,DO,45,Dominican Republic
+2022,SV,42,El Salvador
+2022,TG,39,Togo
+2022,RE,36,Réunion
+2022,SZ,36,Eswatini
+2022,PG,34,Papua New Guinea
+2022,MG,33,Madagascar
+2022,NE,33,Niger
+2022,LI,31,Liechtenstein
+2022,FO,30,Faroe Islands
+2022,SL,27,Sierra Leone
+2022,CG,25,Congo
+2022,NI,25,Nicaragua
+2022,GA,24,Gabon
+2022,LR,21,Liberia
+2022,LS,21,Lesotho
+2022,MC,21,Monaco
+2022,NC,21,New Caledonia
+2022,GD,19,Grenada
+2022,BB,18,Barbados
+2022,GM,18,Gambia
+2022,KP,18,"Korea, Democratic People's Republic of"
+2022,LA,18,Lao People's Democratic Republic
+2022,BS,17,Bahamas
+2022,MR,17,Mauritania
+2022,SO,16,Somalia
+2022,AG,15,Antigua and Barbuda
+2022,AO,14,Angola
+2022,GF,12,French Guiana
+2022,MV,12,Maldives
+2022,SC,11,Seychelles
+2022,TM,11,Turkmenistan
+2022,GY,10,Guyana
+2022,CV,9,Cabo Verde
+2022,GP,9,Guadeloupe
+2022,PF,9,French Polynesia
+2022,DJ,8,Djibouti
+2022,GL,8,Greenland
+2022,TD,8,Chad
+2022,CW,7,Curaçao
+2022,HT,7,Haiti
+2022,TL,7,Timor-Leste
+2022,BM,6,Bermuda
+2022,CF,6,Central African Republic
+2022,GN,6,Guinea
+2022,GU,6,Guam
+2022,KN,6,Saint Kitts and Nevis
+2022,PW,6,Palau
+2022,WS,5,Samoa
+2022,AD,4,Andorra
+2022,BZ,4,Belize
+2022,FM,4,"Micronesia, Federated States of"
+2022,JE,4,Jersey
+2022,MQ,4,Martinique
+2022,SM,4,San Marino
+2022,SR,4,Suriname
+2022,AW,3,Aruba
+2022,ER,3,Eritrea
+2023,CN,239251,China
+2023,US,126611,United States
+2023,IN,72250,India
+2023,GB,44122,United Kingdom
+2023,DE,36999,Germany
+2023,ID,36306,Indonesia
+2023,IT,24725,Italy
+2023,FR,24075,France
+2023,CA,24059,Canada
+2023,JP,22995,Japan
+2023,KR,20844,"Korea, Republic of"
+2023,AU,20315,Australia
+2023,ES,17217,Spain
+2023,RU,16585,Russian Federation
+2023,NL,13461,Netherlands
+2023,TR,12868,Türkiye
+2023,BR,12257,Brazil
+2023,IR,11822,"Iran, Islamic Republic of"
+2023,SA,11786,Saudi Arabia
+2023,HK,11194,Hong Kong
+2023,MY,10434,Malaysia
+2023,CH,9654,Switzerland
+2023,TW,9338,"Taiwan, Province of China"
+2023,PL,8808,Poland
+2023,PK,8488,Pakistan
+2023,SE,7849,Sweden
+2023,SG,7795,Singapore
+2023,EG,6590,Egypt
+2023,BE,6306,Belgium
+2023,PT,5957,Portugal
+2023,NO,5785,Norway
+2023,AT,5593,Austria
+2023,DK,5583,Denmark
+2023,IQ,5154,Iraq
+2023,VN,5042,Viet Nam
+2023,GR,5038,Greece
+2023,MX,4979,Mexico
+2023,AE,4858,United Arab Emirates
+2023,UA,4830,Ukraine
+2023,FI,4811,Finland
+2023,ZA,4570,South Africa
+2023,BD,4382,Bangladesh
+2023,IL,4159,Israel
+2023,TH,4054,Thailand
+2023,CZ,3957,Czechia
+2023,RO,3754,Romania
+2023,IE,3468,Ireland
+2023,MA,3431,Morocco
+2023,NG,3324,Nigeria
+2023,DZ,3166,Algeria
+2023,HU,2819,Hungary
+2023,NZ,2815,New Zealand
+2023,JO,2591,Jordan
+2023,MO,2418,Macao
+2023,TN,2396,Tunisia
+2023,CL,2368,Chile
+2023,PH,2367,Philippines
+2023,CO,2343,Colombia
+2023,RS,1792,Serbia
+2023,ET,1537,Ethiopia
+2023,SK,1503,Slovakia
+2023,AR,1475,Argentina
+2023,KZ,1461,Kazakhstan
+2023,QA,1429,Qatar
+2023,LB,1391,Lebanon
+2023,BG,1374,Bulgaria
+2023,EC,1325,Ecuador
+2023,UZ,1308,Uzbekistan
+2023,CY,1303,Cyprus
+2023,HR,1271,Croatia
+2023,SI,1251,Slovenia
+2023,PE,1233,Peru
+2023,NP,1152,Nepal
+2023,GH,1096,Ghana
+2023,LK,970,Sri Lanka
+2023,LT,921,Lithuania
+2023,KE,866,Kenya
+2023,OM,842,Oman
+2023,EE,809,Estonia
+2023,LU,745,Luxembourg
+2023,KW,686,Kuwait
+2023,YE,637,Yemen
+2023,LV,525,Latvia
+2023,AZ,521,Azerbaijan
+2023,CM,513,Cameroon
+2023,TZ,477,"Tanzania, United Republic of"
+2023,BA,443,Bosnia and Herzegovina
+2023,UG,438,Uganda
+2023,BY,431,Belarus
+2023,MK,390,North Macedonia
+2023,BH,351,Bahrain
+2023,PS,339,"Palestine, State of"
+2023,IS,334,Iceland
+2023,SS,319,South Sudan
+2023,LY,294,Libya
+2023,ZW,266,Zimbabwe
+2023,AM,260,Armenia
+2023,SD,258,Sudan
+2023,MD,257,"Moldova, Republic of"
+2023,UY,257,Uruguay
+2023,MN,252,Mongolia
+2023,TJ,252,Tajikistan
+2023,BN,251,Brunei Darussalam
+2023,MT,246,Malta
+2023,GE,236,Georgia
+2023,CR,226,Costa Rica
+2023,KH,221,Cambodia
+2023,AL,218,Albania
+2023,RW,214,Rwanda
+2023,PR,211,Puerto Rico
+2023,SN,196,Senegal
+2023,ZM,184,Zambia
+2023,CU,183,Cuba
+2023,BW,182,Botswana
+2023,MZ,163,Mozambique
+2023,BJ,153,Benin
+2023,AF,152,Afghanistan
+2023,XK,147,XK
+2023,VE,143,"Venezuela, Bolivarian Republic of"
+2023,MM,141,Myanmar
+2023,MW,133,Malawi
+2023,ME,128,Montenegro
+2023,FJ,125,Fiji
+2023,SY,122,Syrian Arab Republic
+2023,KG,115,Kyrgyzstan
+2023,MU,111,Mauritius
+2023,BI,108,Burundi
+2023,NA,103,Namibia
+2023,BO,100,"Bolivia, Plurinational State of"
+2023,CI,99,Côte d'Ivoire
+2023,KY,98,Cayman Islands
+2023,PY,92,Paraguay
+2023,CD,89,"Congo, The Democratic Republic of the"
+2023,TT,87,Trinidad and Tobago
+2023,BF,85,Burkina Faso
+2023,GT,74,Guatemala
+2023,CG,73,Congo
+2023,PA,72,Panama
+2023,HN,66,Honduras
+2023,JM,63,Jamaica
+2023,MG,61,Madagascar
+2023,DO,58,Dominican Republic
+2023,SV,37,El Salvador
+2023,BT,35,Bhutan
+2023,SO,35,Somalia
+2023,LI,33,Liechtenstein
+2023,PG,33,Papua New Guinea
+2023,TG,33,Togo
+2023,GM,32,Gambia
+2023,ML,31,Mali
+2023,LS,28,Lesotho
+2023,NI,28,Nicaragua
+2023,RE,27,Réunion
+2023,NE,26,Niger
+2023,GP,24,Guadeloupe
+2023,LA,24,Lao People's Democratic Republic
+2023,BB,23,Barbados
+2023,SZ,23,Eswatini
+2023,MR,22,Mauritania
+2023,GY,21,Guyana
+2023,MV,21,Maldives
+2023,FO,20,Faroe Islands
+2023,KP,19,"Korea, Democratic People's Republic of"
+2023,MC,19,Monaco
+2023,TL,19,Timor-Leste
+2023,LR,17,Liberia
+2023,SL,17,Sierra Leone
+2023,AG,16,Antigua and Barbuda
+2023,GA,16,Gabon
+2023,TD,15,Chad
+2023,GD,14,Grenada
+2023,GF,14,French Guiana
+2023,PF,14,French Polynesia
+2023,PW,11,Palau
+2023,KN,10,Saint Kitts and Nevis
+2023,VG,10,"Virgin Islands, British"
+2023,CW,9,Curaçao
+2023,NC,8,New Caledonia
+2023,AO,7,Angola
+2023,DJ,7,Djibouti
+2023,GL,7,Greenland
+2023,GN,7,Guinea
+2023,GU,7,Guam
+2023,LC,6,Saint Lucia
+2023,MQ,6,Martinique
+2023,SM,6,San Marino
+2023,SX,6,Sint Maarten (Dutch part)
+2023,VI,6,"Virgin Islands, U.S."
+2023,BS,5,Bahamas
+2023,ER,5,Eritrea
+2023,WS,5,Samoa
+2023,CV,4,Cabo Verde
+2023,DM,4,Dominica
+2023,TC,4,Turks and Caicos Islands
+2023,TM,4,Turkmenistan
+2023,BZ,3,Belize
+2023,CF,3,Central African Republic
+2023,GI,3,Gibraltar
+2023,HT,3,Haiti
+2023,MS,3,Montserrat
+2024,CN,207261,China
+2024,US,94567,United States
+2024,IN,62218,India
+2024,GB,31385,United Kingdom
+2024,DE,24674,Germany
+2024,FR,19336,France
+2024,JP,18939,Japan
+2024,IT,17645,Italy
+2024,ID,17603,Indonesia
+2024,CA,17056,Canada
+2024,KR,16738,"Korea, Republic of"
+2024,AU,14670,Australia
+2024,ES,11981,Spain
+2024,SA,10220,Saudi Arabia
+2024,TR,10107,Türkiye
+2024,RU,9679,Russian Federation
+2024,HK,9485,Hong Kong
+2024,NL,8980,Netherlands
+2024,IR,8498,"Iran, Islamic Republic of"
+2024,BR,8226,Brazil
+2024,MY,7815,Malaysia
+2024,TW,7014,"Taiwan, Province of China"
+2024,CH,6587,Switzerland
+2024,PK,6196,Pakistan
+2024,SG,6044,Singapore
+2024,PL,5637,Poland
+2024,SE,5447,Sweden
+2024,EG,4852,Egypt
+2024,DK,4592,Denmark
+2024,BE,4320,Belgium
+2024,IQ,4226,Iraq
+2024,BD,4123,Bangladesh
+2024,AE,3947,United Arab Emirates
+2024,PT,3803,Portugal
+2024,AT,3776,Austria
+2024,NO,3708,Norway
+2024,MX,3484,Mexico
+2024,VN,3446,Viet Nam
+2024,GR,3384,Greece
+2024,TH,3296,Thailand
+2024,FI,3110,Finland
+2024,ZA,2957,South Africa
+2024,MA,2897,Morocco
+2024,DZ,2835,Algeria
+2024,IL,2823,Israel
+2024,UA,2621,Ukraine
+2024,CZ,2617,Czechia
+2024,RO,2545,Romania
+2024,NG,2490,Nigeria
+2024,IE,2476,Ireland
+2024,MO,2252,Macao
+2024,JO,2159,Jordan
+2024,HU,2008,Hungary
+2024,NZ,1880,New Zealand
+2024,TN,1789,Tunisia
+2024,PH,1765,Philippines
+2024,CL,1726,Chile
+2024,CO,1556,Colombia
+2024,ET,1275,Ethiopia
+2024,RS,1245,Serbia
+2024,KZ,1115,Kazakhstan
+2024,SK,1027,Slovakia
+2024,QA,1023,Qatar
+2024,AR,999,Argentina
+2024,LB,979,Lebanon
+2024,EC,938,Ecuador
+2024,BG,935,Bulgaria
+2024,CY,932,Cyprus
+2024,NP,894,Nepal
+2024,SI,854,Slovenia
+2024,HR,849,Croatia
+2024,PE,842,Peru
+2024,UZ,818,Uzbekistan
+2024,OM,796,Oman
+2024,GH,742,Ghana
+2024,LK,726,Sri Lanka
+2024,KW,631,Kuwait
+2024,LT,609,Lithuania
+2024,KE,531,Kenya
+2024,LU,511,Luxembourg
+2024,EE,509,Estonia
+2024,YE,440,Yemen
+2024,BH,389,Bahrain
+2024,AZ,384,Azerbaijan
+2024,CM,364,Cameroon
+2024,UG,350,Uganda
+2024,TZ,326,"Tanzania, United Republic of"
+2024,SS,321,South Sudan
+2024,LV,312,Latvia
+2024,BY,296,Belarus
+2024,BA,275,Bosnia and Herzegovina
+2024,MK,244,North Macedonia
+2024,PS,244,"Palestine, State of"
+2024,IS,223,Iceland
+2024,KH,213,Cambodia
+2024,LY,206,Libya
+2024,TJ,203,Tajikistan
+2024,PR,193,Puerto Rico
+2024,ZW,178,Zimbabwe
+2024,MN,176,Mongolia
+2024,UY,175,Uruguay
+2024,AM,174,Armenia
+2024,MT,170,Malta
+2024,CR,163,Costa Rica
+2024,AL,158,Albania
+2024,BN,158,Brunei Darussalam
+2024,GE,158,Georgia
+2024,AF,155,Afghanistan
+2024,SD,155,Sudan
+2024,RW,143,Rwanda
+2024,MM,127,Myanmar
+2024,BW,124,Botswana
+2024,ZM,120,Zambia
+2024,ME,117,Montenegro
+2024,BJ,115,Benin
+2024,SY,109,Syrian Arab Republic
+2024,KG,105,Kyrgyzstan
+2024,CU,104,Cuba
+2024,VE,96,"Venezuela, Bolivarian Republic of"
+2024,MZ,93,Mozambique
+2024,SN,92,Senegal
+2024,XK,92,XK
+2024,MU,85,Mauritius
+2024,CI,83,Côte d'Ivoire
+2024,MW,83,Malawi
+2024,PA,78,Panama
+2024,MD,75,"Moldova, Republic of"
+2024,BO,74,"Bolivia, Plurinational State of"
+2024,FJ,74,Fiji
+2024,PY,74,Paraguay
+2024,NA,72,Namibia
+2024,BI,70,Burundi
+2024,CD,70,"Congo, The Democratic Republic of the"
+2024,BF,63,Burkina Faso
+2024,GT,54,Guatemala
+2024,SO,46,Somalia
+2024,HN,39,Honduras
+2024,TT,36,Trinidad and Tobago
+2024,SV,35,El Salvador
+2024,AG,33,Antigua and Barbuda
+2024,MG,33,Madagascar
+2024,RE,32,Réunion
+2024,TG,29,Togo
+2024,ML,28,Mali
+2024,JM,27,Jamaica
+2024,LI,25,Liechtenstein
+2024,KP,24,"Korea, Democratic People's Republic of"
+2024,BT,23,Bhutan
+2024,DO,22,Dominican Republic
+2024,NE,22,Niger
+2024,GM,21,Gambia
+2024,LR,21,Liberia
+2024,PG,21,Papua New Guinea
+2024,SL,21,Sierra Leone
+2024,KY,20,Cayman Islands
+2024,NI,18,Nicaragua
+2024,CG,17,Congo
+2024,FO,17,Faroe Islands
+2024,SZ,16,Eswatini
+2024,MR,15,Mauritania
+2024,ER,14,Eritrea
+2024,KN,14,Saint Kitts and Nevis
+2024,MV,14,Maldives
+2024,GY,13,Guyana
+2024,LS,13,Lesotho
+2024,GP,12,Guadeloupe
+2024,GD,11,Grenada
+2024,LA,11,Lao People's Democratic Republic
+2024,MC,11,Monaco
+2024,TL,11,Timor-Leste
+2024,GU,10,Guam
+2024,MQ,10,Martinique
+2024,PW,10,Palau
+2024,TD,10,Chad
+2024,BB,9,Barbados
+2024,BS,9,Bahamas
+2024,GA,9,Gabon
+2024,NC,9,New Caledonia
+2024,AO,8,Angola
+2024,DJ,8,Djibouti
+2024,GF,8,French Guiana
+2024,HT,8,Haiti
+2024,VI,7,"Virgin Islands, U.S."
+2024,PF,6,French Polynesia
+2024,CF,5,Central African Republic
+2024,CW,5,Curaçao
+2024,GL,5,Greenland
+2024,LC,5,Saint Lucia
+2024,TC,5,Turks and Caicos Islands
+2024,ST,4,Sao Tome and Principe
+2024,TM,4,Turkmenistan
+2024,BM,3,Bermuda
+2024,GN,3,Guinea
+2024,SC,3,Seychelles
+2024,SM,3,San Marino
+2024,SX,3,Sint Maarten (Dutch part)
+2024,VG,3,"Virgin Islands, British"
+2024,AD,2,Andorra
+2024,BZ,2,Belize
+2024,CV,2,Cabo Verde
+2025,CN,106545,China
+2025,US,54719,United States
+2025,IN,27650,India
+2025,GB,17654,United Kingdom
+2025,DE,14245,Germany
+2025,JP,9821,Japan
+2025,KR,9366,"Korea, Republic of"
+2025,IT,9121,Italy
+2025,CA,9039,Canada
+2025,FR,8356,France
+2025,AU,7731,Australia
+2025,ES,6411,Spain
+2025,SA,5650,Saudi Arabia
+2025,TR,5603,Türkiye
+2025,HK,5593,Hong Kong
+2025,ID,5556,Indonesia
+2025,NL,5129,Netherlands
+2025,BR,4175,Brazil
+2025,RU,4112,Russian Federation
+2025,CH,3869,Switzerland
+2025,IR,3803,"Iran, Islamic Republic of"
+2025,TW,3754,"Taiwan, Province of China"
+2025,SG,3530,Singapore
+2025,MY,3096,Malaysia
+2025,PK,3052,Pakistan
+2025,SE,2902,Sweden
+2025,PL,2883,Poland
+2025,NO,2513,Norway
+2025,BE,2350,Belgium
+2025,DK,2273,Denmark
+2025,EG,2267,Egypt
+2025,AT,2163,Austria
+2025,PT,1925,Portugal
+2025,GR,1916,Greece
+2025,BD,1892,Bangladesh
+2025,AE,1845,United Arab Emirates
+2025,MX,1803,Mexico
+2025,TH,1749,Thailand
+2025,FI,1730,Finland
+2025,VN,1679,Viet Nam
+2025,IL,1604,Israel
+2025,IQ,1576,Iraq
+2025,CZ,1557,Czechia
+2025,ZA,1508,South Africa
+2025,MO,1469,Macao
+2025,RO,1406,Romania
+2025,MA,1288,Morocco
+2025,IE,1244,Ireland
+2025,JO,1208,Jordan
+2025,NG,1166,Nigeria
+2025,HU,1075,Hungary
+2025,NZ,1015,New Zealand
+2025,DZ,975,Algeria
+2025,CL,913,Chile
+2025,UA,884,Ukraine
+2025,CO,820,Colombia
+2025,TN,809,Tunisia
+2025,PH,765,Philippines
+2025,ET,729,Ethiopia
+2025,UZ,716,Uzbekistan
+2025,KZ,642,Kazakhstan
+2025,RS,623,Serbia
+2025,BG,601,Bulgaria
+2025,SK,571,Slovakia
+2025,QA,563,Qatar
+2025,AR,532,Argentina
+2025,HR,531,Croatia
+2025,SI,475,Slovenia
+2025,NP,460,Nepal
+2025,EC,440,Ecuador
+2025,CY,431,Cyprus
+2025,OM,431,Oman
+2025,PE,428,Peru
+2025,LB,373,Lebanon
+2025,GH,366,Ghana
+2025,KW,324,Kuwait
+2025,LK,322,Sri Lanka
+2025,AZ,321,Azerbaijan
+2025,LT,312,Lithuania
+2025,KE,309,Kenya
+2025,YE,268,Yemen
+2025,EE,251,Estonia
+2025,LU,250,Luxembourg
+2025,UG,201,Uganda
+2025,LV,184,Latvia
+2025,PS,177,"Palestine, State of"
+2025,TZ,174,"Tanzania, United Republic of"
+2025,BH,170,Bahrain
+2025,BY,165,Belarus
+2025,KH,156,Cambodia
+2025,MK,154,North Macedonia
+2025,CM,141,Cameroon
+2025,BA,126,Bosnia and Herzegovina
+2025,AF,116,Afghanistan
+2025,MN,109,Mongolia
+2025,TJ,104,Tajikistan
+2025,PR,98,Puerto Rico
+2025,IS,94,Iceland
+2025,SD,93,Sudan
+2025,MT,90,Malta
+2025,ME,87,Montenegro
+2025,ZW,86,Zimbabwe
+2025,AM,85,Armenia
+2025,CR,85,Costa Rica
+2025,LY,82,Libya
+2025,MM,79,Myanmar
+2025,RW,77,Rwanda
+2025,GE,76,Georgia
+2025,ZM,74,Zambia
+2025,AL,70,Albania
+2025,UY,70,Uruguay
+2025,KG,67,Kyrgyzstan
+2025,BI,63,Burundi
+2025,SY,58,Syrian Arab Republic
+2025,BN,57,Brunei Darussalam
+2025,BW,55,Botswana
+2025,CU,55,Cuba
+2025,MZ,53,Mozambique
+2025,CD,49,"Congo, The Democratic Republic of the"
+2025,SN,47,Senegal
+2025,MD,46,"Moldova, Republic of"
+2025,BO,44,"Bolivia, Plurinational State of"
+2025,MW,44,Malawi
+2025,BJ,42,Benin
+2025,PA,42,Panama
+2025,VE,42,"Venezuela, Bolivarian Republic of"
+2025,DO,38,Dominican Republic
+2025,XK,37,XK
+2025,AG,36,Antigua and Barbuda
+2025,BF,36,Burkina Faso
+2025,SO,34,Somalia
+2025,HN,32,Honduras
+2025,JM,30,Jamaica
+2025,SV,29,El Salvador
+2025,MU,27,Mauritius
+2025,NA,25,Namibia
+2025,TM,25,Turkmenistan
+2025,GT,23,Guatemala
+2025,PY,23,Paraguay
+2025,KP,22,"Korea, Democratic People's Republic of"
+2025,CI,21,Côte d'Ivoire
+2025,MV,21,Maldives
+2025,TT,21,Trinidad and Tobago
+2025,MG,20,Madagascar
+2025,PG,20,Papua New Guinea
+2025,FJ,18,Fiji
+2025,ML,18,Mali
+2025,LA,17,Lao People's Democratic Republic
+2025,NE,16,Niger
+2025,TG,16,Togo
+2025,CG,15,Congo
+2025,KY,15,Cayman Islands
+2025,BT,14,Bhutan
+2025,NI,14,Nicaragua
+2025,SS,14,South Sudan
+2025,GM,13,Gambia
+2025,RE,13,Réunion
+2025,AO,12,Angola
+2025,SL,12,Sierra Leone
+2025,LR,11,Liberia
+2025,KN,10,Saint Kitts and Nevis
+2025,LC,10,Saint Lucia
+2025,TD,10,Chad
+2025,FO,9,Faroe Islands
+2025,BB,7,Barbados
+2025,GD,7,Grenada
+2025,HT,7,Haiti
+2025,LS,7,Lesotho
+2025,ER,6,Eritrea
+2025,GP,6,Guadeloupe
+2025,PF,6,French Polynesia
+2025,CF,5,Central African Republic
+2025,GA,5,Gabon
+2025,LI,5,Liechtenstein
+2025,MR,5,Mauritania
+2025,ST,5,Sao Tome and Principe
+2025,GF,4,French Guiana
+2025,GL,4,Greenland
+2025,MC,4,Monaco
+2025,NC,4,New Caledonia
+2025,SM,4,San Marino
+2025,BM,3,Bermuda
+2025,GN,3,Guinea
+2025,GY,3,Guyana
+2025,SZ,3,Eswatini
+2025,TL,3,Timor-Leste
+2025,BZ,2,Belize
+2025,CW,2,Curaçao
+2025,DM,2,Dominica
+2025,FK,2,Falkland Islands (Malvinas)
+2025,GU,2,Guam
+2025,PW,2,Palau
+2025,SX,2,Sint Maarten (Dutch part)
+2025,WS,2,Samoa
+2025,AD,1,Andorra
+2025,AW,1,Aruba
+2025,BS,1,Bahamas
+2025,DJ,1,Djibouti
+2025,FM,1,"Micronesia, Federated States of"
+2025,JE,1,Jersey
